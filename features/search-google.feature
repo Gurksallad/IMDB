@@ -1,8 +1,11 @@
-Feature: Search google
+Feature:
+  As a user I want to search for titles, TV-episodes, celebs, companies and keywords
+  to get a relevant result using the english language
+
+  Background:
+
+    Given  That I’m on the platform IMDb.com
 
 
-  Scenario: When I enter a keyword in google search
-    Given that I'm at the search page
-    When I enter search text "rubber ducking"
-    And I click the search button
-    Then the first test result should contain the word "rubber ducking"
+  Scenario:
+    When jag söker på något, ska resultat som innehåller sökordet visas
