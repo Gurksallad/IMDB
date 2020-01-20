@@ -9,3 +9,6 @@ Feature:
 
   Scenario:
     When jag söker på något, ska resultat som innehåller sökordet visas
+
+
+Scenario: As a user i want to be able to search on titles on IMDB
