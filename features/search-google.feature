@@ -12,3 +12,4 @@ Feature:
 
 
 Scenario: As a user i want to be able to search on titles on IMDB
+
