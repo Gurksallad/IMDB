@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="search-google;when-i-enter-a-keyword-in-google-search" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-google.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I&apos;m at the search page" classname="search-google;when-i-enter-a-keyword-in-google-search" time="15.0081015">
+            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
+        </testcase>
+        <testcase name="When I enter search text &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click the search button" classname="search-google;when-i-enter-a-keyword-in-google-search">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the first test result should contain the word &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
