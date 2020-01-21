@@ -60,12 +60,16 @@ module.exports = function () {
   this.When(/^i press the button sign in$/, async function () {
     let signIn = await $('.imdb-header__signin-text')
     signIn.click()
+    assert(signIn, "can not find sign in button");
+
     await sleep(sleepTime)
   });
 
   this.When(/^press the button Create a New Account$/, async function () {
     let createButton = await $('#signin-options > div > div:nth-child(4) > a')
     createButton.click()
+    assert(createButton, "can not find sign in button");
+
     await sleep(sleepTime)
   });
 
@@ -73,6 +77,8 @@ module.exports = function () {
     let nameBox = await $('#ap_customer_name')
     await nameBox.sendKeys(name)
     await sleep(sleepTime)
+    assert.instanceOf(nameBox, nameBox.constructor, "could not enter name");
+
   });
 
 
@@ -86,6 +92,8 @@ module.exports = function () {
     regEmail = 'bertil.bertilsdotter+' + Date.now() + '@gmail.com';
     console.log("USING THE FOLLOWING EMAIL FOR REGISTRATION ", regEmail)
     await emailInput.sendKeys(regEmail)
+    assert.instanceOf(emailInput, emailInput.constructor, "could not enter email");
+
     await sleep(sleepTime)
   });
 
@@ -94,6 +102,8 @@ module.exports = function () {
   this.When(/^I type in a password "([^"]*)"$/, async function (password) {
     let passwordInput = await $('#ap_password')
     await passwordInput.sendKeys(password)
+    assert.instanceOf(passwordInput, passwordInput.constructor, "could not enter password");
+
     await sleep(sleepTime)
   });
 
@@ -103,6 +113,8 @@ module.exports = function () {
   this.When(/^I re\-enter the same password "([^"]*)"$/, async function (reEnterPassword) {
     let reEnterPasswordInput = await $('#ap_password_check')
     await reEnterPasswordInput.sendKeys(reEnterPassword)
+    assert.instanceOf(reEnterPasswordInput, reEnterPasswordInput.constructor, "could not enter password");
+
     await sleep(sleepTime)
   });
 
@@ -111,6 +123,7 @@ module.exports = function () {
   this.When(/^I press Create your IMDb account$/, async function () {
     let continueButton = await $('#continue')
     continueButton.click()
+    assert(continueButton, "can not find Create your IMDb account button");
     await sleep(sleepTime)
   });
 
