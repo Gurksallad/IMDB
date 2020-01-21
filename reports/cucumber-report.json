@@ -3,9 +3,148 @@
     "description": "  As a user I want to search for titles, TV-episodes, celebs, companies and keywords\n  to get a relevant result using the english language",
     "elements": [
       {
-        "id": "searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb",
+        "id": ";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 10,
+        "name": "I type in an unused email adress and a password i should be able to create an account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That I’m on the platform IMDb.com",
+            "result": {
+              "status": "passed",
+              "duration": 8306698613
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i press the button sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2009460721
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press the button Create a New Account",
+            "result": {
+              "status": "passed",
+              "duration": 2011801305
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter my name \"Bertilsdotter\"",
+            "result": {
+              "status": "passed",
+              "duration": 2098391684
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter a email adress",
+            "result": {
+              "status": "passed",
+              "duration": 2086849864
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I type in a password \"bertilärbäst\"",
+            "result": {
+              "status": "passed",
+              "duration": 2075487975
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I re-enter the same password \"bertilärbäst\"",
+            "result": {
+              "status": "passed",
+              "duration": 2042387591
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press Create your IMDb account",
+            "result": {
+              "status": "passed",
+              "duration": 2008730416
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:111"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
+            "result": {
+              "status": "passed",
+              "duration": 1297741515
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2997489988
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb",
+        "keyword": "Scenario",
+        "line": 21,
         "name": "As a user i want to be able to search on titles on IMDB",
         "steps": [
           {
@@ -14,11 +153,11 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 18729186500
+              "duration": 6884781247
             },
-            "line": 6,
+            "line": 7,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:8"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:17"
             }
           },
           {
@@ -27,11 +166,11 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 3038058201
+              "duration": 2009552471
             },
-            "line": 10,
+            "line": 22,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:15"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:24"
             }
           },
           {
@@ -40,11 +179,11 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-              "duration": 3661387901
+              "duration": 2502267572
             },
-            "line": 11,
+            "line": 23,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:22"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:31"
             }
           },
           {
@@ -53,11 +192,11 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 5532866100
+              "duration": 2872273810
             },
-            "line": 12,
+            "line": 24,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:30"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:39"
             }
           },
           {
@@ -66,11 +205,11 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 3578117300
+              "duration": 2152035613
             },
-            "line": 13,
+            "line": 25,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:37"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:46"
             }
           },
           {
@@ -78,11 +217,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 5927180400
+              "duration": 1819826267
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -90,11 +229,11 @@
         "type": "scenario"
       }
     ],
-    "id": "searchfunction/categories",
+    "id": "",
     "keyword": "Feature",
     "line": 1,
-    "name": "searchfunction/categories",
+    "name": "",
     "tags": [],
-    "uri": "C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/search-google.feature"
+    "uri": "/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature"
   }
 ]
