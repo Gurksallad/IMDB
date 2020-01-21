@@ -1,0 +1,152 @@
+[
+  {
+    "description": "  As a user I want to search for titles, TV-episodes, celebs, companies and keywords\n  to get a relevant result using the english language",
+    "elements": [
+      {
+        "id": ";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "I type in an unused email adress and a password i should be able to create an account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That I’m on the platform IMDb.com",
+            "result": {
+              "status": "passed",
+              "duration": 10339299495
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i press the button sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2061950151
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press the button Create a New Account",
+            "result": {
+              "status": "passed",
+              "duration": 2049732589
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter my name \"Bertilsdotter\"",
+            "result": {
+              "status": "passed",
+              "duration": 2072496904
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter a email adress",
+            "result": {
+              "status": "passed",
+              "duration": 2157699278
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I type in a password \"bertilärbäst\"",
+            "result": {
+              "status": "passed",
+              "duration": 2065381907
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I re-enter the same password \"bertilärbäst\"",
+            "result": {
+              "status": "passed",
+              "duration": 2075369375
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press Create your IMDb account",
+            "result": {
+              "status": "passed",
+              "duration": 2018368909
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
+            "result": {
+              "status": "passed",
+              "duration": 1587834750
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/search-google.js:101"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2870349739
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-google.feature"
+  }
+]
