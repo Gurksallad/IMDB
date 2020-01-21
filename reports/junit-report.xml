@@ -1,43 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature">
-            </property>
-        </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="7.935537487">
-        </testcase>
-        <testcase name="When i press the button sign in" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.013852912">
-        </testcase>
-        <testcase name="And press the button Create a New Account" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.012549692">
-        </testcase>
-        <testcase name="And I enter my name &quot;Bertilsdotter&quot;" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.122484781">
-        </testcase>
-        <testcase name="And I enter a email adress" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.121913075">
-        </testcase>
-        <testcase name="And I type in a password &quot;bertilärbäst&quot;" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.096730607">
-        </testcase>
-        <testcase name="And I re-enter the same password &quot;bertilärbäst&quot;" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.056421972">
-        </testcase>
-        <testcase name="And I press Create your IMDb account" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.02561824">
-        </testcase>
-        <testcase name="Then I should be automatically logged in to my account with the name &quot;Bertilsdotter&quot;" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="1.106436724">
-        </testcase>
-    </testsuite>
     <testsuite name=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="8.734236787">
+        <testcase name="Given That I’m on the platform IMDb.com" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="8.256299897">
         </testcase>
-        <testcase name="When I enter the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.01067704">
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.010800035">
         </testcase>
-        <testcase name="And I press the categories button titles" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.505487889">
+        <testcase name="And I press the categories button titles" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.558585321">
         </testcase>
-        <testcase name="When I press the search button" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.231788138">
+        <testcase name="When I press the search button" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.310092235">
         </testcase>
-        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.179075118">
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.254020599">
+        </testcase>
+    </testsuite>
+    <testsuite name=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="7.726363616">
+        </testcase>
+        <testcase name="When i press the button sign in" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.01264375">
+        </testcase>
+        <testcase name="And press the button Create a New Account" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.011463566">
+        </testcase>
+        <testcase name="And I enter my name" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.130387572">
+        </testcase>
+        <testcase name="And I enter a email adress" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.134706703">
+        </testcase>
+        <testcase name="And I type in a password" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.101184507">
+        </testcase>
+        <testcase name="And I re-enter the same password" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.064214601">
+        </testcase>
+        <testcase name="And I press Create your IMDb account" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.009354292">
+        </testcase>
+        <testcase name="Then I should be automatically logged in to my account" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="3.953804634">
+        </testcase>
+    </testsuite>
+    <testsuite name=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="9.071247689">
+        </testcase>
+        <testcase name="When i press the button sign in" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.016801219">
+        </testcase>
+        <testcase name="And press the sign in with IMDb button" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.011414751">
+        </testcase>
+        <testcase name="And I enter my email" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.217003558">
+        </testcase>
+        <testcase name="And I enter my password" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.0767578">
+        </testcase>
+        <testcase name="And I press the yellow sign in button" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.089638649">
+        </testcase>
+        <testcase name="Then I should be logged in to my account" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="4.334603204">
         </testcase>
     </testsuite>
 </testsuites>

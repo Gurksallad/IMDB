@@ -3,10 +3,10 @@
     "description": "  As a user I want to search for titles, TV-episodes, celebs, companies and keywords\n  to get a relevant result using the english language",
     "elements": [
       {
-        "id": ";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
+        "id": ";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "I type in an unused email adress and a password i should be able to create an account",
+        "line": 9,
+        "name": "As a user i want to be able to search on titles on IMDB",
         "steps": [
           {
             "arguments": [],
@@ -14,115 +14,63 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 7935537487
+              "duration": 8256299897
             },
             "line": 7,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:19"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "i press the button sign in",
+            "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2013852912
+              "duration": 2010800035
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press the categories button titles",
+            "result": {
+              "status": "passed",
+              "duration": 2558585321
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:60"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:33"
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "press the button Create a New Account",
+            "keyword": "When ",
+            "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 2012549692
+              "duration": 2310092235
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:68"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter my name \"Bertilsdotter\"",
-            "result": {
-              "status": "passed",
-              "duration": 2122484781
-            },
-            "line": 13,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:74"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter a email adress",
-            "result": {
-              "status": "passed",
-              "duration": 2121913075
-            },
-            "line": 14,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I type in a password \"bertilärbäst\"",
-            "result": {
-              "status": "passed",
-              "duration": 2096730607
-            },
-            "line": 15,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:100"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I re-enter the same password \"bertilärbäst\"",
-            "result": {
-              "status": "passed",
-              "duration": 2056421972
-            },
-            "line": 16,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:111"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press Create your IMDb account",
-            "result": {
-              "status": "passed",
-              "duration": 2025618240
-            },
-            "line": 17,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:121"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:41"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
+            "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 1106436724
+              "duration": 2254020599
             },
-            "line": 18,
+            "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:129"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:48"
             }
           },
           {
@@ -130,7 +78,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1931719068
+              "duration": 1886519107
             },
             "hidden": true,
             "match": {
@@ -142,10 +90,10 @@
         "type": "scenario"
       },
       {
-        "id": ";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb",
+        "id": ";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
         "keyword": "Scenario",
-        "line": 21,
-        "name": "As a user i want to be able to search on titles on IMDB",
+        "line": 16,
+        "name": "I type in an unused email adress and a password i should be able to create an account",
         "steps": [
           {
             "arguments": [],
@@ -153,63 +101,115 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 8734236787
+              "duration": 7726363616
             },
             "line": 7,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:19"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter the title \"Lion King\"",
+            "name": "i press the button sign in",
             "result": {
               "status": "passed",
-              "duration": 2010677040
+              "duration": 2012643750
             },
-            "line": 22,
+            "line": 17,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:24"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:62"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I press the categories button titles",
+            "name": "press the button Create a New Account",
             "result": {
               "status": "passed",
-              "duration": 2505487889
+              "duration": 2011463566
             },
-            "line": 23,
+            "line": 18,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:70"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "I press the search button",
+            "keyword": "And ",
+            "name": "I enter my name",
             "result": {
               "status": "passed",
-              "duration": 2231788138
+              "duration": 2130387572
             },
-            "line": 24,
+            "line": 19,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:39"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:78"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter a email adress",
+            "result": {
+              "status": "passed",
+              "duration": 2134706703
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:90"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I type in a password",
+            "result": {
+              "status": "passed",
+              "duration": 2101184507
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:105"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I re-enter the same password",
+            "result": {
+              "status": "passed",
+              "duration": 2064214601
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:117"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press Create your IMDb account",
+            "result": {
+              "status": "passed",
+              "duration": 2009354292
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:127"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should see the search results based on the title \"Lion King\"",
+            "name": "I should be automatically logged in to my account",
             "result": {
               "status": "passed",
-              "duration": 2179075118
+              "duration": 3953804634
             },
-            "line": 25,
+            "line": 24,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:46"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:135"
             }
           },
           {
@@ -217,7 +217,120 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1867777297
+              "duration": 1846229558
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";i-want-to-login-with-the-same-email-and-password-that-i-registered-with",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "I want to login with the same email and password that i registered with",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That I’m on the platform IMDb.com",
+            "result": {
+              "status": "passed",
+              "duration": 9071247689
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i press the button sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2016801219
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press the sign in with IMDb button",
+            "result": {
+              "status": "passed",
+              "duration": 2011414751
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:146"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter my email",
+            "result": {
+              "status": "passed",
+              "duration": 2217003558
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:154"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter my password",
+            "result": {
+              "status": "passed",
+              "duration": 2076757800
+            },
+            "line": 30,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press the yellow sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 2089638649
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:169"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be logged in to my account",
+            "result": {
+              "status": "passed",
+              "duration": 4334603204
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:175"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1955395277
             },
             "hidden": true,
             "match": {

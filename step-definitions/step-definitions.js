@@ -6,6 +6,8 @@ module.exports = function () {
   let searchField
   let sleepTime = 2000;
   let regEmail
+  let password
+  let name
 
   /*this.Given(/^That I’m on the platform IMDb.com$/, async function () {
     await helpers.loadPage('https://imdb.com');
@@ -69,15 +71,16 @@ module.exports = function () {
     let createButton = await $('#signin-options > div > div:nth-child(4) > a')
     createButton.click()
     assert(createButton, "can not find sign in button");
-
     await sleep(sleepTime)
+
   });
 
-  this.When(/^I enter my name "([^"]*)"$/, async function (name) {
+  this.When(/^I enter my name$/, async function () {
     let nameBox = await $('#ap_customer_name')
+    name = 'bertilsdotter'
     await nameBox.sendKeys(name)
-    await sleep(sleepTime)
     assert.instanceOf(nameBox, nameBox.constructor, "could not enter name");
+    await sleep(sleepTime)
 
   });
 
@@ -99,8 +102,9 @@ module.exports = function () {
 
 
 
-  this.When(/^I type in a password "([^"]*)"$/, async function (password) {
+  this.When(/^I type in a password$/, async function () {
     let passwordInput = await $('#ap_password')
+     password = 'bertilärbäst'
     await passwordInput.sendKeys(password)
     assert.instanceOf(passwordInput, passwordInput.constructor, "could not enter password");
 
@@ -110,9 +114,9 @@ module.exports = function () {
 
 
 
-  this.When(/^I re\-enter the same password "([^"]*)"$/, async function (reEnterPassword) {
+  this.When(/^I re\-enter the same password$/, async function () {
     let reEnterPasswordInput = await $('#ap_password_check')
-    await reEnterPasswordInput.sendKeys(reEnterPassword)
+    await reEnterPasswordInput.sendKeys(password)
     assert.instanceOf(reEnterPasswordInput, reEnterPasswordInput.constructor, "could not enter password");
 
     await sleep(sleepTime)
@@ -128,15 +132,55 @@ module.exports = function () {
   });
 
 
-  this.Then(/^I should be automatically logged in to my account with the name "([^"]*)"$/, async function (name) {
+  this.Then(/^I should be automatically logged in to my account$/, async function () {
     // Grab the label element where the user name is shown
     let loggedInLabel = await $('label[for="navUserMenu"] .ipc-button__text')
     // Get the text inisde the label
-    let textInLabel = await loggedInLabel.getText();
+    let textInLabel = await loggedInLabel.getText(name);
     // Compare the text from the label with the name we registrered as
     assert.strictEqual(textInLabel, name, 'Not logged in with the name "' + name + '"');
+    await sleep(sleepTime)
+
   });
 
+  this.When(/^press the sign in with IMDb button$/, async function () {
+    let signInButton = await $('#signin-options > div > div:nth-child(2) > a:nth-child(1)')
+    signInButton.click()
+    assert(signInButton, "can not find sign in with IMDb button");
+
+      await sleep(sleepTime)
+  });
+
+  this.When(/^I enter my email$/, async function () {
+    let myEmail = await $('#ap_email')
+    await myEmail.sendKeys(regEmail)
+    assert.instanceOf(myEmail, myEmail.constructor, "could not enter email");
+    await sleep(sleepTime)
+
+  });
+
+  this.When(/^I enter my password$/, async function () {
+    let myPassword = await $('#ap_password')
+    await myPassword.sendKeys(password)
+    assert.instanceOf(myPassword, myPassword.constructor, "could not enter password");
+    await sleep(sleepTime)
+  });
+
+  this.When(/^I press the yellow sign in button$/, async function () {
+    let yellowSignInButton = await $('#signInSubmit')
+    yellowSignInButton.click()
+    assert(yellowSignInButton, "can not find the yellow sign in button");
+    await sleep(sleepTime)
+  });
+  this.Then(/^I should be logged in to my account$/, async function () {
+    // Grab the label element where the user name is shown
+    let logInLabel = await $('label[for="navUserMenu"] .ipc-button__text')
+    // Get the text inisde the label
+    let logInTextInLabel = await logInLabel.getText(name);
+    // Compare the text from the label with the name we registrered as
+    assert.strictEqual(logInTextInLabel, name, 'Not logged in with the name "' + name + '"');
+    await sleep(sleepTime)
+  });
 
 }
 
