@@ -23,3 +23,4 @@ Scenario: As a user i want to be able to search on titles on IMDB
   And I press the categories button titles
   When I press the search button
   Then I should see the search results based on the title "Lion King"
+  åååååå
