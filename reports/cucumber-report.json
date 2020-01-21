@@ -14,11 +14,11 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 9439787207
+              "duration": 8306698613
             },
             "line": 7,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:17"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "i press the button sign in",
             "result": {
               "status": "passed",
-              "duration": 2016042431
+              "duration": 2009460721
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:60"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:60"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "press the button Create a New Account",
             "result": {
               "status": "passed",
-              "duration": 2013495106
+              "duration": 2011801305
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:66"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:66"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "I enter my name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
-              "duration": 2115423450
+              "duration": 2098391684
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:72"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:72"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "I enter a email adress",
             "result": {
               "status": "passed",
-              "duration": 2121243848
+              "duration": 2086849864
             },
             "line": 14,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:81"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:81"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "I type in a password \"bertilärbäst\"",
             "result": {
               "status": "passed",
-              "duration": 2081868077
+              "duration": 2075487975
             },
             "line": 15,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:94"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:94"
             }
           },
           {
@@ -92,11 +92,11 @@
             "name": "I re-enter the same password \"bertilärbäst\"",
             "result": {
               "status": "passed",
-              "duration": 2060714535
+              "duration": 2042387591
             },
             "line": 16,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:103"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:103"
             }
           },
           {
@@ -105,11 +105,11 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
-              "duration": 2013401536
+              "duration": 2008730416
             },
             "line": 17,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:111"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:111"
             }
           },
           {
@@ -118,11 +118,11 @@
             "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
-              "duration": 2545327380
+              "duration": 1297741515
             },
             "line": 18,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:118"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:118"
             }
           },
           {
@@ -130,11 +130,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1938546169
+              "duration": 2997489988
             },
             "hidden": true,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -153,11 +153,11 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 10491164951
+              "duration": 6884781247
             },
             "line": 7,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:17"
             }
           },
           {
@@ -166,11 +166,11 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2017635846
+              "duration": 2009552471
             },
             "line": 22,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:24"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:24"
             }
           },
           {
@@ -179,11 +179,11 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-              "duration": 2527447471
+              "duration": 2502267572
             },
             "line": 23,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:31"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:31"
             }
           },
           {
@@ -192,11 +192,11 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 2118816012
+              "duration": 2872273810
             },
             "line": 24,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:39"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:39"
             }
           },
           {
@@ -205,11 +205,11 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2243249324
+              "duration": 2152035613
             },
             "line": 25,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:46"
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:46"
             }
           },
           {
@@ -217,11 +217,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2897171834
+              "duration": 1819826267
             },
             "hidden": true,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -234,6 +234,6 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature"
+    "uri": "/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature"
   }
 ]
