@@ -17,7 +17,9 @@ Feature:
     And I press Create your IMDb account
     Then I should be automatically logged in to my account with the name "Bertilsdotter"
 
-#inloggad
-#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div.sc-kpOJdX.RWCCJ.imdb-header__watchlist-button > a > div > span
-#utloggad
-#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div.sc-kpOJdX.RWCCJ.imdb-header__watchlist-button > a > div
+
+Scenario: As a user i want to be able to search on titles on IMDB
+  When I enter the title "Lion King"
+  And I press the categories button titles
+  When I press the search button
+  Then I should see the search results based on the title "Lion King"
