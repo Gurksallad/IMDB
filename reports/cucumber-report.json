@@ -14,11 +14,11 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 20761850999
+              "duration": 18729186500
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\search-google.js:7"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:8"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 4050428600
+              "duration": 3038058201
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\search-google.js:14"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:15"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-              "duration": 4972617500
+              "duration": 3661387901
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\search-google.js:21"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:22"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 8977719500
+              "duration": 5532866100
             },
             "line": 12,
             "match": {
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\search-google.js:29"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:30"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2772493701
+              "duration": 3578117300
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\search-google.js:36"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\search-google.js:37"
             }
           },
           {
@@ -78,11 +78,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 8033164099
+              "duration": 5927180400
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -95,6 +95,6 @@
     "line": 1,
     "name": "searchfunction/categories",
     "tags": [],
-    "uri": "C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-google.feature"
+    "uri": "C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/search-google.feature"
   }
 ]

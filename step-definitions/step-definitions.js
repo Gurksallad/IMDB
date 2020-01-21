@@ -4,9 +4,10 @@ module.exports = function () {
 
   //Feature Sökfunktion/Kategorier background
   let searchField
+  let sleepTime = 3000;
   this.Given(/^That I’m on the platform IMDb.com$/, async function () {
     await helpers.loadPage('https://imdb.com');
-    await sleep(1000)
+    await sleep(sleepTime)
     searchField = await $('#suggestion-search')
     assert.instanceOf(searchField, searchField.constructor, "Expected a web element")
   });
@@ -15,13 +16,13 @@ module.exports = function () {
     searchField = await $('#suggestion-search');
     assert(searchField, 'Can not find the search field on the page');
     searchField.sendKeys(searchText);
-    await sleep(4000);
+    await sleep(sleepTime);
   });
 
   this.When(/^I press the categories button titles$/, async function () {
     let categoriesButton = await $('.search-category-selector')
     await categoriesButton.click();
-    await sleep(4000);
+    await sleep(sleepTime);
     let titlesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(2)')
     await titlesButton.click();
   });
@@ -41,6 +42,6 @@ module.exports = function () {
     let firstResult = results[0];
     let resultText = await firstResult.getText();
     assert.include(resultText, title, 'Could not find the phrase ' + title + ' in the first search result.');
-    await sleep(2000);
+    await sleep(sleepTime);
   });
 }

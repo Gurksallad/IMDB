@@ -2,18 +2,18 @@
 <testsuites>
     <testsuite name="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-google.feature">
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/search-google.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="20.761850999">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="18.7291865">
         </testcase>
-        <testcase name="When I enter the title &quot;Lion King&quot;" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="4.0504286">
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="3.038058201">
         </testcase>
-        <testcase name="And I press the categories button titles" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="4.9726175">
+        <testcase name="And I press the categories button titles" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="3.661387901">
         </testcase>
-        <testcase name="When I press the search button" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="8.9777195">
+        <testcase name="When I press the search button" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="5.5328661">
         </testcase>
-        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.772493701">
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="3.5781173">
         </testcase>
     </testsuite>
 </testsuites>
