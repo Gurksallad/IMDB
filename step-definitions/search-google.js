@@ -11,7 +11,6 @@ module.exports = function () {
     assert.instanceOf(searchField, searchField.constructor, "Expected a web element")
   });
 
-
   this.When(/^I enter the title "([^"]*)"$/, async function (searchText) {
     searchField = await $('#suggestion-search');
     assert(searchField, 'Can not find the search field on the page');
@@ -20,7 +19,7 @@ module.exports = function () {
   });
 
   this.When(/^I press the categories button titles$/, async function () {
-    let categoriesButton = await $('#nav-search-form > div.search-category-selector.sc-htoDjs.jAJuqP > div > label > div')
+    let categoriesButton = await $('.search-category-selector')
     await categoriesButton.click();
     await sleep(4000);
     let titlesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(2)')
@@ -34,12 +33,14 @@ module.exports = function () {
 
   });
 
-  this.Then(/^I should see the search results based on the title$/, async function () {
-    await driver.wait(until.elementLocated(By.css('.findResult', '.findNoResults')))
-    let results = await $('findResult');
-    assert(results, 'Could not find any results')
+  this.Then(/^I should see the search results based on the title "([^"]*)"$/, async function (title) {
+    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
+    // now the search has finisehd
+    let results = await $('.findResult');
+    assert(results, 'Could not find any results');
     let firstResult = results[0];
     let resultText = await firstResult.getText();
-    assert.include(results, 'The Lion King')
+    assert.include(resultText, title, 'Could not find the phrase ' + title + ' in the first search result.');
+    await sleep(2000);
   });
 }
