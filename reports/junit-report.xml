@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="6" failures="0" skipped="0">
+    <testsuite name="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="1" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-google.feature">
+            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/search-google.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="26.156511">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="23.4736018">
         </testcase>
-        <testcase name="When I enter a title" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="0.000389099">
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="4.0579732">
         </testcase>
-        <testcase name="And I press the categories button" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="0.0006908">
+        <testcase name="And I press the categories button titles" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="4.9184253">
         </testcase>
-        <testcase name="And I press Titles" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="0.000551301">
+        <testcase name="When I press the search button" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="6.3785361">
         </testcase>
-        <testcase name="When I press the search button" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="0.0004143">
-        </testcase>
-        <testcase name="Then I should see the search results based on titles" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="0.0004748">
+        <testcase name="Then I should see the search results based on the title" classname="searchfunction/categories;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="0.233391099">
+            <failure message="AssertionError: Could not find any results">AssertionError: Could not find any results
+    at createWorld.&lt;anonymous&gt; (C:\Users\toby_\OneDrive\Dokument\Projekt\Testverktyg\IMDB\step-definitions\search-google.js:40:3)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
         </testcase>
     </testsuite>
 </testsuites>
