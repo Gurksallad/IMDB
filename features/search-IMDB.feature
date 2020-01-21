@@ -5,7 +5,6 @@ Feature: searchfunction/categories
 Background:
   Given  That I’m on the platform IMDb.com
 
-
 Scenario: As a user i want to be able to search on titles on IMDB
   When I enter the title "Lion King"
   And I press the categories button titles
