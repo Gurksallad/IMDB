@@ -68,6 +68,8 @@ module.exports = function () {
   this.When(/^press the button Create a New Account$/, async function () {
     let createButton = await $('#signin-options > div > div:nth-child(4) > a')
     createButton.click()
+    assert(createButton, "can not find sign in button");
+
     await sleep(sleepTime)
   });
 
