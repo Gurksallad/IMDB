@@ -82,7 +82,31 @@ module.exports = function () {
     await companiesButton.click();
   });
 
+  this.When(/^I enter the name of "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
 
+  this.When(/^I press the categories button celebrities$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let titlesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(4)')
+    await titlesButton.click();
+  });
+
+  this.Then(/^I should see the search results based on the name "([^"]*)"$/, async function (name) {
+    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
+    // now the search has finisehd
+    let results = await $('.findResult');
+    assert(results, 'Could not find any results');
+    let firstResult = results[0];
+    let resultText = await firstResult.getText();
+    assert.include(resultText, title, 'Could not find the phrase ' + name + ' in the first search result.');
+    await sleep(sleepTime);
+  });
 
 
   this.When(/^i press the button sign in$/, async function () {

@@ -31,3 +31,11 @@ Feature: title
     And I press the categories button companies
     And I press the search button
     Then I should see the search results based on the title "Twentieth Century Fox"
+    
+  Scenario: As a user i want to be able to search for a celebritie on IMDB
+    When I enter the name of "Sylvester Stallone"
+    And I press the categories button celebrities
+    And I press the search button
+    Then I should see the search results based on the name "Sylvester Stallone"
+
+
