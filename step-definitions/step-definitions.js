@@ -67,6 +67,61 @@ module.exports = function () {
     await sleep(sleepTime)
   });
 
+  this.When(/^I enter the company "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button companies$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let companiesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(5)')
+    await companiesButton.click();
+  });
+
+  this.When(/^I enter the name of "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button celebrities$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let titlesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(4)')
+    await titlesButton.click();
+  });
+
+  this.Then(/^I should see the search results based on the name "([^"]*)"$/, async function (name) {
+    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
+    // now the search has finisehd
+    let results = await $('.findResult');
+    assert(results, 'Could not find any results');
+    let firstResult = results[0];
+    let resultText = await firstResult.getText();
+    assert.include(resultText, name, 'Could not find the phrase ' + name + ' in the first search result.');
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I enter the episode "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button tv\-episodes$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let episodesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(3)')
+    await episodesButton.click();
+  });
 
 
   this.When(/^i press the button sign in$/, async function () {
@@ -148,6 +203,28 @@ module.exports = function () {
     // Compare the text from the label with the name we registrered as
     assert.strictEqual(textInLabel, name, 'Not logged in with the name "' + name + '"');
   });
+
+//scenario watchlist add/remove start
+  this.Given(/^that i am logged in$/, async function () {
+    let button = await $('.imdb-header__signin-text')
+    button.click()
+    await driver.wait(until.elementLocated(By.css('.imdb-logo')))
+    button = await $('.imdb-logo')
+    button.click()
+    await driver.wait(until.elementLocated(By.name('email')))
+    driver.findElement(by.name("email")).click();
+    driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
+    driver.findElement(by.name("password")).click()
+    driver.findElement(by.name("password")).sendKeys('jheamobps5is')
+    await driver.wait(until.elementLocated(By.id("signInSubmit")))
+    button = driver.findElement(by.id("signInSubmit"))
+    button.click()
+    await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
+    let loggedInUserScreen = await $('.ipc-icon--account-circle')
+    assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
+
+  });
+//scenaio watchlist add/remove end
 
 
 }
