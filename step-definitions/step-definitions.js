@@ -67,6 +67,22 @@ module.exports = function () {
     await sleep(sleepTime)
   });
 
+  this.When(/^I enter the company "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button companies$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let companiesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(5)')
+    await companiesButton.click();
+  });
+
+
 
 
   this.When(/^i press the button sign in$/, async function () {
