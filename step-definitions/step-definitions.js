@@ -8,6 +8,7 @@ module.exports = function () {
   let regEmail
   let password
   let name
+  let faultyPassword
 
   /*this.Given(/^That I’m on the platform IMDb.com$/, async function () {
     await helpers.loadPage('https://imdb.com');
@@ -60,7 +61,7 @@ module.exports = function () {
   
 
   this.When(/^i press the button sign in$/, async function () {
-    let signIn = await $('.imdb-header__signin-text')
+    let signIn = await driver.findElement(by.linkText("Sign In"))
     signIn.click()
     assert(signIn, "can not find sign in button");
 
@@ -77,7 +78,7 @@ module.exports = function () {
 
   this.When(/^I enter my name$/, async function () {
     let nameBox = await $('#ap_customer_name')
-    name = 'bertilsdotter'
+    name = 'hejimdbitsmeagain'
     await nameBox.sendKeys(name)
     assert.instanceOf(nameBox, nameBox.constructor, "could not enter name");
     await sleep(sleepTime)
@@ -123,14 +124,12 @@ module.exports = function () {
   });
 
 
-/*
   this.When(/^I press Create your IMDb account$/, async function () {
     let continueButton = await $('#continue')
     continueButton.click()
     assert(continueButton, "can not find Create your IMDb account button");
     await sleep(sleepTime)
   });
-
 
   this.Then(/^I should be automatically logged in to my account$/, async function () {
     // Grab the label element where the user name is shown
@@ -142,10 +141,10 @@ module.exports = function () {
     await sleep(sleepTime)
 
   });
-  */
+  
 
   this.When(/^press the sign in with IMDb button$/, async function () {
-    let signInButton = await $('#signin-options > div > div:nth-child(2) > a:nth-child(1)')
+    let signInButton = await driver.findElement(by.linkText("Sign in with IMDb"))
     signInButton.click()
     assert(signInButton, "can not find sign in with IMDb button");
 
@@ -173,6 +172,7 @@ module.exports = function () {
     assert(yellowSignInButton, "can not find the yellow sign in button");
     await sleep(sleepTime)
   });
+  
   this.Then(/^I should be logged in to my account$/, async function () {
     // Grab the label element where the user name is shown
     let logInLabel = await $('label[for="navUserMenu"] .ipc-button__text')
@@ -182,6 +182,52 @@ module.exports = function () {
     assert.strictEqual(logInTextInLabel, name, 'Not logged in with the name "' + name + '"');
     await sleep(sleepTime)
   });
+
+  
+  this.When(/^I enter an unused email adress$/, async function () {
+    let anotherEmailInput = await $('#ap_email')
+    // We can use create multiple "emails" that go to the same gmail account
+    // using the plus sign see:
+    // http://www.codestore.net/store.nsf/unid/BLOG-20111201-0411
+    let regAnotherEmail = 'bertil.bertilsdotter+' + Date.now() + '@gmail.com';
+    console.log("USING THE FOLLOWING EMAIL FOR REGISTRATION ", regAnotherEmail)
+    await anotherEmailInput.sendKeys(regAnotherEmail)
+    assert.instanceOf(anotherEmailInput, anotherEmailInput.constructor, "could not enter email");
+
+    await sleep(sleepTime)
+  });
+
+  
+  this.When(/^I type in a faulty password$/, async function () {
+    let passwordInputBox = await $('#ap_password')
+     faultyPassword = 'bertil'
+    await passwordInputBox.sendKeys(faultyPassword)
+    assert.instanceOf(passwordInputBox, passwordInputBox.constructor, "could not enter password");
+
+    await sleep(sleepTime)
+  });
+
+
+  this.When(/^I re\-enter the same faulty password$/, async function () {
+    let reEnterPasswordInputBox = await $('#ap_password_check')
+    await reEnterPasswordInputBox.sendKeys(faultyPassword)
+    assert.instanceOf(reEnterPasswordInputBox, reEnterPasswordInputBox.constructor, "could not enter password");
+
+    await sleep(sleepTime)
+  });
+
+
+  this.Then(/^I should get a warning box$/, async function () {
+        // Grab the label element where the user name is shown
+    let errorMessage = await $('#auth-error-message-box > div')
+    assert.instanceOf(errorMessage, errorMessage.constructor, 'could not find error "');
+
+    
+    await sleep(sleepTime)
+    
+  });
+
+
 
 }
 
