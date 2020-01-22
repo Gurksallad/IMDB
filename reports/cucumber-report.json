@@ -14,11 +14,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 19310859500
-=======
-              "duration": 20915763800
->>>>>>> Stashed changes
+              "duration": 27742905600
             },
             "line": 6,
             "match": {
@@ -30,179 +26,79 @@
             "keyword": "When ",
             "name": "i press the button sign in",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2053044700
-=======
-              "duration": 2027454600
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 9,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:67"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:66"
->>>>>>> Stashed changes
-            }
+            "line": 9
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "press the button Create a New Account",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2094059300
-=======
-              "duration": 4967277000
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 10,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:75"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:74"
->>>>>>> Stashed changes
-            }
+            "line": 10
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I enter my name \"Bertilsdotter\"",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2208305300
-=======
-              "duration": 2335870899
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 11,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:83"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:82"
->>>>>>> Stashed changes
-            }
+            "line": 11
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I enter a email adress",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2344944701
-=======
-              "duration": 2481638700
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 12,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:94"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:93"
->>>>>>> Stashed changes
-            }
+            "line": 12
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I type in a password \"bertilärbäst\"",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2345023500
-=======
-              "duration": 2393501401
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 13,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:109"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:108"
->>>>>>> Stashed changes
-            }
+            "line": 13
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I re-enter the same password \"bertilärbäst\"",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2109755001
-=======
-              "duration": 2226775100
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 14,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:120"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:119"
->>>>>>> Stashed changes
-            }
+            "line": 14
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I press Create your IMDb account",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2039557499
-=======
-              "duration": 2055716600
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 15,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:130"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:129"
->>>>>>> Stashed changes
-            }
+            "line": 15
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
             "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2090164800
-=======
-              "duration": 6540848399
->>>>>>> Stashed changes
+              "status": "undefined"
             },
-            "line": 16,
-            "match": {
-<<<<<<< Updated upstream
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:138"
-=======
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:137"
->>>>>>> Stashed changes
-            }
+            "line": 16
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 7673625499
-=======
-              "duration": 5025020400
->>>>>>> Stashed changes
+              "duration": 4113287300
             },
             "hidden": true,
             "match": {
@@ -225,11 +121,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 19168403700
-=======
-              "duration": 21179484500
->>>>>>> Stashed changes
+              "duration": 22646057700
             },
             "line": 6,
             "match": {
@@ -242,11 +134,7 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2023439900
-=======
-              "duration": 2105011200
->>>>>>> Stashed changes
+              "duration": 2028827800
             },
             "line": 19,
             "match": {
@@ -259,11 +147,7 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2650576700
-=======
-              "duration": 3807979599
->>>>>>> Stashed changes
+              "duration": 2828810500
             },
             "line": 20,
             "match": {
@@ -276,11 +160,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 6078184200
-=======
-              "duration": 8749466400
->>>>>>> Stashed changes
+              "duration": 8001901599
             },
             "line": 21,
             "match": {
@@ -293,11 +173,7 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 2397454499
-=======
-              "duration": 2828767900
->>>>>>> Stashed changes
+              "duration": 3031402600
             },
             "line": 22,
             "match": {
@@ -309,11 +185,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 6756157801
-=======
-              "duration": 5068892100
->>>>>>> Stashed changes
+              "duration": 5178834000
             },
             "hidden": true,
             "match": {
@@ -327,11 +199,7 @@
       {
         "id": "title;as-a-user-i-want-to-be-able-to-search-on-imdb",
         "keyword": "Scenario",
-<<<<<<< Updated upstream
-        "line": 26,
-=======
         "line": 24,
->>>>>>> Stashed changes
         "name": "As a user I want to be able to search on IMDB",
         "steps": [
           {
@@ -340,11 +208,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 17759444200
-=======
-              "duration": 27864156999
->>>>>>> Stashed changes
+              "duration": 27816625301
             },
             "line": 6,
             "match": {
@@ -354,34 +218,23 @@
           {
             "arguments": [],
             "keyword": "When ",
-<<<<<<< Updated upstream
             "name": "I enter \"Simpsons\" in the searchfield",
             "result": {
               "status": "passed",
-              "duration": 2150670801
+              "duration": 2056874000
             },
-            "line": 27,
+            "line": 25,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:57"
+              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:57"
             }
-=======
-            "name": "I enter \"simsons\" in the searchfield",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 25
->>>>>>> Stashed changes
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I press the search button",
             "result": {
-<<<<<<< Updated upstream
               "status": "passed",
-              "duration": 3573210600
-=======
-              "status": "skipped"
+              "duration": 5503843099
             },
             "line": 26,
             "match": {
@@ -393,36 +246,20 @@
             "keyword": "Then ",
             "name": "I should see results based on my search",
             "result": {
-              "status": "skipped"
->>>>>>> Stashed changes
+              "status": "passed",
+              "duration": 2271868901
             },
             "line": 27,
             "match": {
-              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:57"
+              "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:64"
             }
           },
           {
             "arguments": [],
-<<<<<<< Updated upstream
-            "keyword": "Then ",
-            "name": "I should see results based on my search",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 29
-          },
-          {
-            "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 5371055100
-=======
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 4197604700
->>>>>>> Stashed changes
+              "duration": 7932114400
             },
             "hidden": true,
             "match": {

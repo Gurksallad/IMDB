@@ -61,6 +61,11 @@ module.exports = function () {
     await sleep(sleepTime);
   });
 
+  this.Then(/^I should see results based on my search$/, async function () {
+    let findResultOfSearch = await $('#findSubHeader')
+    assert.instanceOf(findResultOfSearch, findResultOfSearch.constructor, "Expected a web element")
+    await sleep(sleepTime)
+  });
 
 
 
