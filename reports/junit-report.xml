@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
+    <testsuite name="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/search-IMDB.feature">
+            <property name="URI" value="C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
+<<<<<<< Updated upstream
         <testcase name="Given That I’m on the platform IMDb.com" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="19.3108595">
         </testcase>
         <testcase name="When i press the button sign in" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0530447">
@@ -22,13 +23,33 @@
         <testcase name="And I press Create your IMDb account" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.039557499">
         </testcase>
         <testcase name="Then I should be automatically logged in to my account with the name &quot;Bertilsdotter&quot;" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0901648">
+=======
+        <testcase name="Given That I’m on the platform IMDb.com" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="20.9157638">
+        </testcase>
+        <testcase name="When i press the button sign in" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0274546">
+        </testcase>
+        <testcase name="And press the button Create a New Account" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="4.967277">
+        </testcase>
+        <testcase name="And I enter my name &quot;Bertilsdotter&quot;" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.335870899">
+        </testcase>
+        <testcase name="And I enter a email adress" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.4816387">
+        </testcase>
+        <testcase name="And I type in a password &quot;bertilärbäst&quot;" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.393501401">
+        </testcase>
+        <testcase name="And I re-enter the same password &quot;bertilärbäst&quot;" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.2267751">
+        </testcase>
+        <testcase name="And I press Create your IMDb account" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0557166">
+        </testcase>
+        <testcase name="Then I should be automatically logged in to my account with the name &quot;Bertilsdotter&quot;" classname="title;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="6.540848399">
+>>>>>>> Stashed changes
         </testcase>
     </testsuite>
-    <testsuite name=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
+    <testsuite name="title;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/search-IMDB.feature">
+            <property name="URI" value="C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
+<<<<<<< Updated upstream
         <testcase name="Given That I’m on the platform IMDb.com" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="19.1684037">
         </testcase>
         <testcase name="When I enter the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.0234399">
@@ -41,10 +62,25 @@
         </testcase>
     </testsuite>
     <testsuite name=";as-a-user-i-want-to-be-able-to-search-on-imdb" tests="4" failures="0" skipped="1">
+=======
+        <testcase name="Given That I’m on the platform IMDb.com" classname="title;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="21.1794845">
+        </testcase>
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname="title;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.1050112">
+        </testcase>
+        <testcase name="And I press the categories button titles" classname="title;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="3.807979599">
+        </testcase>
+        <testcase name="When I press the search button" classname="title;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="8.7494664">
+        </testcase>
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="title;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.8287679">
+        </testcase>
+    </testsuite>
+    <testsuite name="title;as-a-user-i-want-to-be-able-to-search-on-imdb" tests="4" failures="0" skipped="3">
+>>>>>>> Stashed changes
         <properties>
-            <property name="URI" value="C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/search-IMDB.feature">
+            <property name="URI" value="C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
+<<<<<<< Updated upstream
         <testcase name="Given That I’m on the platform IMDb.com" classname=";as-a-user-i-want-to-be-able-to-search-on-imdb" time="17.7594442">
         </testcase>
         <testcase name="When I enter &quot;Simpsons&quot; in the searchfield" classname=";as-a-user-i-want-to-be-able-to-search-on-imdb" time="2.150670801">
@@ -52,6 +88,19 @@
         <testcase name="And I press the search button" classname=";as-a-user-i-want-to-be-able-to-search-on-imdb" time="3.5732106">
         </testcase>
         <testcase name="Then I should see results based on my search" classname=";as-a-user-i-want-to-be-able-to-search-on-imdb">
+=======
+        <testcase name="Given That I’m on the platform IMDb.com" classname="title;as-a-user-i-want-to-be-able-to-search-on-imdb" time="27.864156999">
+        </testcase>
+        <testcase name="When I enter &quot;simsons&quot; in the searchfield" classname="title;as-a-user-i-want-to-be-able-to-search-on-imdb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I press the search button" classname="title;as-a-user-i-want-to-be-able-to-search-on-imdb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should see results based on my search" classname="title;as-a-user-i-want-to-be-able-to-search-on-imdb">
+>>>>>>> Stashed changes
             <skipped message="">
             </skipped>
         </testcase>
