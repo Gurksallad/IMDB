@@ -1,5 +1,238 @@
 [
   {
+    "elements": [
+      {
+        "id": "as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "As a user i want to be able to add/remove from my watchlist",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That I’m on the platform IMDb.com",
+            "result": {
+              "status": "passed",
+              "duration": 16616012501
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am logged in",
+            "result": {
+              "status": "passed",
+              "duration": 8836526700
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:208"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "click on the watchlist",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I'm in my watchlist",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "add something to my watchlist",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "remove something from my watchlist",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4768121600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "As a user when I try to use a registered e-mail I should get an error message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That I’m on the platform IMDb.com",
+            "result": {
+              "status": "passed",
+              "duration": 18288334801
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 2307994099
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:230"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the create a new account button",
+            "result": {
+              "status": "passed",
+              "duration": 2623581699
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter my name",
+            "result": {
+              "status": "passed",
+              "duration": 1264900
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:244"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter my e-mail",
+            "result": {
+              "status": "passed",
+              "duration": 2096601
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:250"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter a valid password",
+            "result": {
+              "status": "passed",
+              "duration": 2210800
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:256"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I re-enter the password",
+            "result": {
+              "status": "passed",
+              "duration": 1134600
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:262"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the create an IMDB account button",
+            "result": {
+              "status": "passed",
+              "duration": 2318428900
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:268"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should receive an error message",
+            "result": {
+              "status": "passed",
+              "duration": 2191245200
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:275"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 5928933600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-want-to-manage-my-account",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a user i want to manage my account",
+    "tags": [],
+    "uri": "C:/Users/toby_/OneDrive/Dokument/Projekt/Testverktyg/IMDB/features/account-settings.feature"
+  },
+  {
     "description": "  As a user I want to search for titles, TV-episodes, celebs, companies and keywords\n  to get a relevant result using the english language",
     "elements": [
       {
@@ -14,7 +247,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 23691752200
+              "duration": 13642681900
             },
             "line": 6,
             "match": {
@@ -27,7 +260,7 @@
             "name": "i press the button sign in",
             "result": {
               "status": "passed",
-              "duration": 2033509200
+              "duration": 2093192499
             },
             "line": 9,
             "match": {
@@ -40,7 +273,7 @@
             "name": "press the button Create a New Account",
             "result": {
               "status": "passed",
-              "duration": 2151478900
+              "duration": 2036531300
             },
             "line": 10,
             "match": {
@@ -53,7 +286,7 @@
             "name": "I enter my name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
-              "duration": 2232949900
+              "duration": 2280082500
             },
             "line": 11,
             "match": {
@@ -66,7 +299,7 @@
             "name": "I enter a email adress",
             "result": {
               "status": "passed",
-              "duration": 2189593900
+              "duration": 2226193399
             },
             "line": 12,
             "match": {
@@ -79,7 +312,7 @@
             "name": "I type in a password \"bertilärbäst\"",
             "result": {
               "status": "passed",
-              "duration": 2129543000
+              "duration": 2187888500
             },
             "line": 13,
             "match": {
@@ -92,7 +325,7 @@
             "name": "I re-enter the same password \"bertilärbäst\"",
             "result": {
               "status": "passed",
-              "duration": 2094683900
+              "duration": 2069974100
             },
             "line": 14,
             "match": {
@@ -105,7 +338,7 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
-              "duration": 2029554401
+              "duration": 2026442700
             },
             "line": 15,
             "match": {
@@ -118,7 +351,7 @@
             "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
-              "duration": 1866627899
+              "duration": 2553732500
             },
             "line": 16,
             "match": {
@@ -130,7 +363,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 5793425400
+              "duration": 5005465700
             },
             "hidden": true,
             "match": {
@@ -153,7 +386,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 15015588201
+              "duration": 16426133200
             },
             "line": 6,
             "match": {
@@ -166,7 +399,7 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2016764300
+              "duration": 2032899800
             },
             "line": 19,
             "match": {
@@ -179,7 +412,7 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-              "duration": 2684787400
+              "duration": 2862852200
             },
             "line": 20,
             "match": {
@@ -192,7 +425,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 3809585900
+              "duration": 3498611399
             },
             "line": 21,
             "match": {
@@ -205,7 +438,7 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2368097200
+              "duration": 2346084100
             },
             "line": 22,
             "match": {
@@ -217,7 +450,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 5441750800
+              "duration": 4474056500
             },
             "hidden": true,
             "match": {
@@ -240,7 +473,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 17437682601
+              "duration": 15299736100
             },
             "line": 6,
             "match": {
@@ -253,7 +486,7 @@
             "name": "I enter \"Simpsons\" in the searchfield",
             "result": {
               "status": "passed",
-              "duration": 2015311200
+              "duration": 2031023600
             },
             "line": 25,
             "match": {
@@ -266,7 +499,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 5367874801
+              "duration": 2880026500
             },
             "line": 26,
             "match": {
@@ -279,7 +512,7 @@
             "name": "I should see results based on my search",
             "result": {
               "status": "passed",
-              "duration": 2052728900
+              "duration": 2033130900
             },
             "line": 27,
             "match": {
@@ -291,7 +524,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 5336417399
+              "duration": 3712544299
             },
             "hidden": true,
             "match": {
@@ -314,7 +547,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 17032261400
+              "duration": 12452765700
             },
             "line": 6,
             "match": {
@@ -327,7 +560,7 @@
             "name": "I enter the company \"Twentieth Century Fox\"",
             "result": {
               "status": "passed",
-              "duration": 2180786399
+              "duration": 2021560699
             },
             "line": 30,
             "match": {
@@ -340,7 +573,7 @@
             "name": "I press the categories button companies",
             "result": {
               "status": "passed",
-              "duration": 3458950999
+              "duration": 2663215300
             },
             "line": 31,
             "match": {
@@ -353,7 +586,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 3145706700
+              "duration": 2136724700
             },
             "line": 32,
             "match": {
@@ -366,7 +599,7 @@
             "name": "I should see the search results based on the title \"Twentieth Century Fox\"",
             "result": {
               "status": "passed",
-              "duration": 2189203300
+              "duration": 2172924400
             },
             "line": 33,
             "match": {
@@ -378,7 +611,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 5469276799
+              "duration": 4514637801
             },
             "hidden": true,
             "match": {
@@ -401,7 +634,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 21024549501
+              "duration": 10374812601
             },
             "line": 6,
             "match": {
@@ -414,7 +647,7 @@
             "name": "I enter the name of \"Sylvester Stallone\"",
             "result": {
               "status": "passed",
-              "duration": 2030683300
+              "duration": 2024828201
             },
             "line": 36,
             "match": {
@@ -427,7 +660,7 @@
             "name": "I press the categories button celebrities",
             "result": {
               "status": "passed",
-              "duration": 3234825500
+              "duration": 2613952701
             },
             "line": 37,
             "match": {
@@ -440,7 +673,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 6095736099
+              "duration": 2501219899
             },
             "line": 38,
             "match": {
@@ -453,7 +686,7 @@
             "name": "I should see the search results based on the name \"Sylvester Stallone\"",
             "result": {
               "status": "passed",
-              "duration": 2143785101
+              "duration": 2165575901
             },
             "line": 39,
             "match": {
@@ -465,7 +698,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 7949219300
+              "duration": 4672012800
             },
             "hidden": true,
             "match": {
@@ -488,7 +721,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 15532264301
+              "duration": 18109546300
             },
             "line": 6,
             "match": {
@@ -501,7 +734,7 @@
             "name": "I enter the episode \"The Iron Throne\"",
             "result": {
               "status": "passed",
-              "duration": 2073887301
+              "duration": 2101893199
             },
             "line": 42,
             "match": {
@@ -514,7 +747,7 @@
             "name": "I press the categories button tv-episodes",
             "result": {
               "status": "passed",
-              "duration": 3262411099
+              "duration": 3116108200
             },
             "line": 43,
             "match": {
@@ -527,7 +760,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 3534541801
+              "duration": 2919207200
             },
             "line": 44,
             "match": {
@@ -540,7 +773,7 @@
             "name": "I should see the search results based on the title \"The Iron Throne\"",
             "result": {
               "status": "passed",
-              "duration": 2236123900
+              "duration": 2424566500
             },
             "line": 45,
             "match": {
@@ -552,7 +785,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4737683500
+              "duration": 6055377700
             },
             "hidden": true,
             "match": {
