@@ -204,6 +204,28 @@ module.exports = function () {
     assert.strictEqual(textInLabel, name, 'Not logged in with the name "' + name + '"');
   });
 
+//scenario watchlist add/remove start
+  this.Given(/^that i am logged in$/, async function () {
+    let button = await $('.imdb-header__signin-text')
+    button.click()
+    await driver.wait(until.elementLocated(By.css('.imdb-logo')))
+    button = await $('.imdb-logo')
+    button.click()
+    await driver.wait(until.elementLocated(By.name('email')))
+    driver.findElement(by.name("email")).click();
+    driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
+    driver.findElement(by.name("password")).click()
+    driver.findElement(by.name("password")).sendKeys('jheamobps5is')
+    await driver.wait(until.elementLocated(By.id("signInSubmit")))
+    button = driver.findElement(by.id("signInSubmit"))
+    button.click()
+    await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
+    let loggedInUserScreen = await $('.ipc-icon--account-circle')
+    assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
+
+  });
+//scenaio watchlist add/remove end
+
 
 }
 
