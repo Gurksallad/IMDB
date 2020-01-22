@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="search-google;when-i-enter-a-keyword-in-google-search" tests="4" failures="1" skipped="3">
+    <testsuite name="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" tests="6" failures="0" skipped="2">
         <properties>
-            <property name="URI" value="C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-google.feature">
+            <property name="URI" value="C:\Users\jitma\Desktop\pågående projekt\IMDB\features\account-settings.feature">
             </property>
         </properties>
-        <testcase name="Given that I&apos;m at the search page" classname="search-google;when-i-enter-a-keyword-in-google-search" time="15.0081015">
-            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="8.7112138">
         </testcase>
-        <testcase name="When I enter search text &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search">
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="7.051479201">
+        </testcase>
+        <testcase name="And i have clicked create a new list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.8469688">
+        </testcase>
+        <testcase name="And i have given my list a name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="0.000966801">
+        </testcase>
+        <testcase name="When I click the Create button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And I click the search button" classname="search-google;when-i-enter-a-keyword-in-google-search">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the first test result should contain the word &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search">
+        <testcase name="Then i should have a list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list">
             <skipped message="">
             </skipped>
         </testcase>
