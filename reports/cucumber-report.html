@@ -270,8 +270,8 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">sel-cucumber-template</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 1</span>
-            <span class="label label-danger" title=scenarios>Failed: 0</span>
+            <span class="label label-success" title=scenarios>Passed: 0</span>
+            <span class="label label-danger" title=scenarios>Failed: 1</span>
           </div>
         </div>
       </div>
@@ -279,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Wed Jan 22 2020 11:52:16 GMT+0100 (GMT+01:00)</div>
+      <div class="generated-on">Wed Jan 22 2020 12:16:49 GMT+0100 (GMT+01:00)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -305,9 +305,9 @@ pre {
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Feature:</b>As a user i want to manage my account
                         <span class="label-container">
-              <span class="label label-success"
-                                                         title="1 Scenarios Passed">1</span>
               
+              <span class="label label-danger"
+                                                         title="1 Scenarios Failed">1</span>
               
               
               
@@ -332,7 +332,7 @@ pre {
                                    href="#collapseScenariosel_cucumber_template0_0">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>As a user I want to create a list
@@ -344,7 +344,8 @@ pre {
                               
                               
                               
-                              
+                              <span class="label label-danger"
+                                                               title="1 Steps Failed">1</span>
                               
                             </span>
                                         </div>
@@ -372,7 +373,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               8s 711ms
+                               11s 136ms
                               </span>
                             
                          
@@ -408,7 +409,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               7s 51ms
+                               7s 941ms
                               </span>
                             
                          
@@ -444,7 +445,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               4s 846ms
+                               7s 175ms
                               </span>
                             
                          
@@ -480,7 +481,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               1s 2ms
                               </span>
                             
                          
@@ -506,8 +507,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
+                                    <span class="label label-danger" title="Failed"><i
+                                            class="glyphicon glyphicon-remove"></i></span>
                                     
                                     
                                     <span class="text">
@@ -516,7 +517,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               0s
+                               7m 54s 644ms
                               </span>
                             
                          
@@ -525,13 +526,94 @@ pre {
                       </span>
                                 
                                 
-                                <pre class=info>
-<br>Then(/^I click the Create button$/, function(callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
+
                                     
+                                    <a href="#error0_04"
+                                       data-toggle="collapse" class="toggle">Show Error +</a>
+                                    <div id="error0_04"
+                                         class="collapse">
+                                        <pre class="info show-modal"
+                                             data-toggle="modal"
+                                             style="cursor: pointer"
+                                             data-target="#error-modal-0_04">
+                                            <br> WebDriverError: Failed to interpret value as array
+    at Object.throwDecodedError (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks ((anonymous))
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElements(By(link text, See all lists by you))
+    at thenableWebDriverProxy.schedule (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:1048:22)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\until.js:243:23
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at TaskQueue.execute_ (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2982:25
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:676:7
+From: Task: (anonymous)
+    at Timeout.pollCondition [as _onTimeout] (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2203:19)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+From: Task: Waiting for element to be located By(link text, See all lists by you)
+    at scheduleWait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2196:20)
+    at ControlFlow.wait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2525:12)
+    at thenableWebDriverProxy.wait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at createWorld.(anonymous) (C:\Users\jitma\Desktop\pågående projekt\IMDB\step-definitions\search-google.js:106:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</pre>
+                                    </div>
+
+                                <div class="modal fade" id="error-modal-0_04" tabindex="-1" role="dialog"
+                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h4 class="modal-title" id="error-modal-title">
+                                                    Error
+                                                </h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>
+                                                    <pre><br>WebDriverError: Failed to interpret value as array
+    at Object.throwDecodedError (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks ((anonymous))
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElements(By(link text, See all lists by you))
+    at thenableWebDriverProxy.schedule (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:1048:22)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\until.js:243:23
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at TaskQueue.execute_ (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2982:25
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:676:7
+From: Task: (anonymous)
+    at Timeout.pollCondition [as _onTimeout] (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2203:19)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+From: Task: Waiting for element to be located By(link text, See all lists by you)
+    at scheduleWait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2196:20)
+    at ControlFlow.wait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2525:12)
+    at thenableWebDriverProxy.wait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at createWorld.(anonymous) (C:\Users\jitma\Desktop\pågående projekt\IMDB\step-definitions\search-google.js:106:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</pre>
+                                                </h5>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                     
 
@@ -588,6 +670,100 @@ pre {
                                 
                                 
                                 
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-danger" title="Failed"><i
+                                            class="glyphicon glyphicon-remove"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">After </span>
+                          <span> </span>
+                            
+                          
+                              <span class="step-duration">
+                               672ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+                                    <a href="#error0_06"
+                                       data-toggle="collapse" class="toggle">Show Error +</a>
+                                    <div id="error0_06"
+                                         class="collapse">
+                                        <pre class="info show-modal"
+                                             data-toggle="modal"
+                                             style="cursor: pointer"
+                                             data-target="#error-modal-0_06">
+                                            <br> WebDriverError: Failed to decode response from marionette
+    at Object.throwDecodedError (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks ((anonymous))
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.takeScreenshot()
+    at thenableWebDriverProxy.schedule (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.takeScreenshot (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:1083:17)
+    at createWorld.(anonymous) (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-cucumber-js\runtime\world.js:253:27)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</pre>
+                                    </div>
+
+                                <div class="modal fade" id="error-modal-0_06" tabindex="-1" role="dialog"
+                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h4 class="modal-title" id="error-modal-title">
+                                                    Error
+                                                </h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>
+                                                    <pre><br>WebDriverError: Failed to decode response from marionette
+    at Object.throwDecodedError (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks ((anonymous))
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.takeScreenshot()
+    at thenableWebDriverProxy.schedule (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.takeScreenshot (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:1083:17)
+    at createWorld.(anonymous) (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-cucumber-js\runtime\world.js:253:27)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</pre>
+                                                </h5>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
                                 
                             </div>
                         </div>
@@ -625,8 +801,8 @@ pre {
         google.load("visualization", "1", {packages: ["corechart"]});
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
-                                                            "failed" : 0,
-                                                            "passed" : 1,
+                                                            "failed" : 1,
+                                                            "passed" : 0,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
@@ -635,8 +811,8 @@ pre {
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
-                                                            "failed" : 0,
-                                                            "passed" : 1,
+                                                            "failed" : 1,
+                                                            "passed" : 0,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,

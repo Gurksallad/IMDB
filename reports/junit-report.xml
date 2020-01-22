@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" tests="6" failures="0" skipped="2">
+    <testsuite name="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" tests="6" failures="1" skipped="1">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\pågående projekt\IMDB\features\account-settings.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="8.7112138">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="11.1368824">
         </testcase>
-        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="7.051479201">
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="7.941685599">
         </testcase>
-        <testcase name="And i have clicked create a new list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.8469688">
+        <testcase name="And i have clicked create a new list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="7.1759413">
         </testcase>
-        <testcase name="And i have given my list a name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="0.000966801">
+        <testcase name="And i have given my list a name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="1.002993101">
         </testcase>
-        <testcase name="When I click the Create button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I click the Create button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="474.644089">
+            <failure message="WebDriverError: Failed to interpret value as array">WebDriverError: Failed to interpret value as array
+    at Object.throwDecodedError (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElements(By(link text, See all lists by you))
+    at thenableWebDriverProxy.schedule (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:1048:22)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\until.js:243:23
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at TaskQueue.execute_ (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2982:25
+    at C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:676:7
+From: Task: &lt;anonymous&gt;
+    at Timeout.pollCondition [as _onTimeout] (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2203:19)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+From: Task: Waiting for element to be located By(link text, See all lists by you)
+    at scheduleWait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2196:20)
+    at ControlFlow.wait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\promise.js:2525:12)
+    at thenableWebDriverProxy.wait (C:\Users\jitma\Desktop\pågående projekt\IMDB\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at createWorld.&lt;anonymous&gt; (C:\Users\jitma\Desktop\pågående projekt\IMDB\step-definitions\search-google.js:106:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
         </testcase>
         <testcase name="Then i should have a list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list">
             <skipped message="">

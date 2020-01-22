@@ -39,7 +39,7 @@ module.exports = function () {
   
     });
   */
-  
+
   let sleepTime = 0
 
   this.Given(/^That I’m on the platform IMDb\.com$/, async function () {
@@ -85,11 +85,11 @@ module.exports = function () {
     button.click()
     await driver.wait(until.elementLocated(By.css('.list-create-button')))
     let titleToFind = await $('.list-create-button')
-    
+
     assert.instanceOf(titleToFind, titleToFind.constructor, "Expected to find the button 'Create list'")
   });
 
-  this.Given(/^i have given my list a name$/, function () {
+  this.Given(/^i have given my list a name$/, async function () {
 
     driver.findElement(by.id("list-create-name")).click();
     driver.findElement(by.id("list-create-name")).sendKeys('Min egen lista')
@@ -97,11 +97,14 @@ module.exports = function () {
     assert(true)
   });
 
-  this.When(/^I click the Create button$/, function () {
+  this.When(/^I click the Create button$/, async function () {
     let button = await driver.findElement(by.css('.list-create-button'))
     button.click()
     await driver.wait(until.elementLocated(By.css('.lister-new-instructions')))
     button = await driver.findElement(by.css('.list-edit-done'))
+    button.click()
+    await driver.wait(until.elementLocated(By.linkText('See all lists by you')))
+    button = await driver.findElement(by.linkText('See all lists by you'))
     button.click()
 
   });
