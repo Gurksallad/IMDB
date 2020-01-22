@@ -123,7 +123,7 @@ module.exports = function () {
   });
 
 
-
+/*
   this.When(/^I press Create your IMDb account$/, async function () {
     let continueButton = await $('#continue')
     continueButton.click()
@@ -142,6 +142,7 @@ module.exports = function () {
     await sleep(sleepTime)
 
   });
+  */
 
   this.When(/^press the sign in with IMDb button$/, async function () {
     let signInButton = await $('#signin-options > div > div:nth-child(2) > a:nth-child(1)')

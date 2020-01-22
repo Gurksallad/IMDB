@@ -31,6 +31,13 @@ Feature:
     And I press the yellow sign in button
     Then I should be logged in to my account
 
-
-
+  Scenario: if I enter a faulty password, then i should get a warning when trying to create the accouunt
+    When i press the button sign in
+    And press the button Create a New Account
+    And I enter my name
+    And I enter a email adress
+    And I type in a faulty password
+    And I re-enter the same faulty password
+    And I press Create your IMDb account
+    Then I should get a warning box 
 
