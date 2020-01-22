@@ -54,8 +54,15 @@ module.exports = function () {
     await sleep(sleepTime);
   });
 
+  this.When(/^I enter "([^"]*)" in the searchfield$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
 
-  
+
+
 
   this.When(/^i press the button sign in$/, async function () {
     let signIn = await $('.imdb-header__signin-text')

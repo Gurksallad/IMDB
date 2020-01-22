@@ -23,14 +23,9 @@ Feature:
     When I press the search button
     Then I should see the search results based on the title "Lion King"
 
-  Scenario Outline: As a user I want to be able to search on IMDB
-    When I enter <text> in the searchfield
+  Scenario: As a user I want to be able to search on IMDB
+    When I enter "Simpsons" in the searchfield
     And I press the search button
-    Then I should see <results> based on my search
-
-    Examples:
-      | text     | results    |
-      | simpsons | results    |
-      | asdfq4   | no results |
+    Then I should see results based on my search
 
 

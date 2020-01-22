@@ -14,7 +14,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 16654456801
+              "duration": 19310859500
             },
             "line": 7,
             "match": {
@@ -27,11 +27,11 @@
             "name": "i press the button sign in",
             "result": {
               "status": "passed",
-              "duration": 2030245800
+              "duration": 2053044700
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:60"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:67"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "press the button Create a New Account",
             "result": {
               "status": "passed",
-              "duration": 2032724200
+              "duration": 2094059300
             },
             "line": 12,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:68"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:75"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "I enter my name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
-              "duration": 2176529700
+              "duration": 2208305300
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:76"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:83"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "I enter a email adress",
             "result": {
               "status": "passed",
-              "duration": 2175949300
+              "duration": 2344944701
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:87"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:94"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "I type in a password \"bertilärbäst\"",
             "result": {
               "status": "passed",
-              "duration": 2144649800
+              "duration": 2345023500
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:102"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:109"
             }
           },
           {
@@ -92,11 +92,11 @@
             "name": "I re-enter the same password \"bertilärbäst\"",
             "result": {
               "status": "passed",
-              "duration": 2097413899
+              "duration": 2109755001
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:113"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:120"
             }
           },
           {
@@ -105,11 +105,11 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
-              "duration": 2029770899
+              "duration": 2039557499
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:123"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:130"
             }
           },
           {
@@ -118,11 +118,11 @@
             "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
-              "duration": 2245885400
+              "duration": 2090164800
             },
             "line": 18,
             "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:131"
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:138"
             }
           },
           {
@@ -130,7 +130,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4728506001
+              "duration": 7673625499
             },
             "hidden": true,
             "match": {
@@ -153,7 +153,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 15863923099
+              "duration": 19168403700
             },
             "line": 7,
             "match": {
@@ -166,7 +166,7 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2039453600
+              "duration": 2023439900
             },
             "line": 21,
             "match": {
@@ -179,7 +179,7 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-              "duration": 2757950499
+              "duration": 2650576700
             },
             "line": 22,
             "match": {
@@ -192,7 +192,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 5311139700
+              "duration": 6078184200
             },
             "line": 23,
             "match": {
@@ -205,7 +205,7 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2369632499
+              "duration": 2397454499
             },
             "line": 24,
             "match": {
@@ -217,7 +217,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4896442200
+              "duration": 6756157801
             },
             "hidden": true,
             "match": {
@@ -231,7 +231,7 @@
       {
         "id": ";as-a-user-i-want-to-be-able-to-search-on-imdb",
         "keyword": "Scenario",
-        "line": 33,
+        "line": 26,
         "name": "As a user I want to be able to search on IMDB",
         "steps": [
           {
@@ -240,7 +240,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 15277005599
+              "duration": 17759444200
             },
             "line": 7,
             "match": {
@@ -250,18 +250,23 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter simpsons in the searchfield",
+            "name": "I enter \"Simpsons\" in the searchfield",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2150670801
             },
-            "line": 27
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:57"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I press the search button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3573210600
             },
             "line": 28,
             "match": {
@@ -282,72 +287,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3761529899
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";as-a-user-i-want-to-be-able-to-search-on-imdb",
-        "keyword": "Scenario",
-        "line": 34,
-        "name": "As a user I want to be able to search on IMDB",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "That I’m on the platform IMDb.com",
-            "result": {
-              "status": "passed",
-              "duration": 15569323400
-            },
-            "line": 7,
-            "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I enter asdfq4 in the searchfield",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 27
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press the search button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 28,
-            "match": {
-              "location": "C:\\Users\\toby_\\OneDrive\\Dokument\\Projekt\\Testverktyg\\IMDB\\step-definitions\\step-definitions.js:39"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should see no results based on my search",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 29
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 4228390100
+              "duration": 5371055100
             },
             "hidden": true,
             "match": {
