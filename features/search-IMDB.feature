@@ -38,4 +38,8 @@ Feature: title
     And I press the search button
     Then I should see the search results based on the name "Sylvester Stallone"
 
-
+  Scenario: As a user i want to be able to search on tv-episodes on IMDB
+    When I enter the episode "The Iron Throne"
+    And I press the categories button tv-episodes
+    And I press the search button
+    Then I should see the search results based on the title "The Iron Throne"

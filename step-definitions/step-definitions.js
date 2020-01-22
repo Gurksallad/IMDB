@@ -104,8 +104,23 @@ module.exports = function () {
     assert(results, 'Could not find any results');
     let firstResult = results[0];
     let resultText = await firstResult.getText();
-    assert.include(resultText, title, 'Could not find the phrase ' + name + ' in the first search result.');
+    assert.include(resultText, name, 'Could not find the phrase ' + name + ' in the first search result.');
     await sleep(sleepTime);
+  });
+
+  this.When(/^I enter the episode "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button tv\-episodes$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let episodesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(3)')
+    await episodesButton.click();
   });
 
 
