@@ -222,8 +222,73 @@ module.exports = function () {
     await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
     let loggedInUserScreen = await $('.ipc-icon--account-circle')
     assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
+  });
+
+  this.When(/^i click on the watchlist$/, async function () {
+    let watchListButton = await $('.sc-kpOJdX');
+    watchListButton.click();
+
+    await driver.wait(until.elementLocated(By.css('.empty-react-watchlist')));
+    let imInMyWatchList = await $('.empty-react-watchlist');
+    assert.instanceOf(imInMyWatchList, imInMyWatchList.constructor, "Expected a web element");
+  });
+
+  this.When(/^find a movie to add$/, async function () {  
+    await driver.wait(until.elementLocated(By.linkText('Browse Popular Movies')));
+    let findMovieToAdd = driver.findElement(By.linkText('Browse Popular Movies'));
+    findMovieToAdd.click();
+
+    await driver.wait(until.elementLocated(By.css('.chart')))
+    let findMovieToList = driver.findElement(by.linkText('The Shawshank Redemption'));
+    findMovieToList.click();
+
+    await driver.wait(until.elementLocated(By.css('.uc-add-wl-button')));
+    let checkAddedMovie = await $('.uc-add-wl-button');
+    assert.instanceOf(checkAddedMovie, checkAddedMovie.constructor, "Expected a web element");
+  });
+
+  this.When(/^add a to watchlist$/, async function () {
+    let addMovieToList = driver.findElement(by.css('.uc-add-wl-button'));
+    addMovieToList.click();
+    sleep(sleepTime)
+
+    await driver.wait(until.elementLocated(By.css('.sc-kpOJdX')));
+    let watchListButton = await $('.sc-kpOJdX');
+    watchListButton.click();
+
+    await driver.wait(until.elementLocated(By.css('.lister-item')));
+    let checkMyWatchList = await $('.lister-item');
+    assert.instanceOf(checkMyWatchList, checkMyWatchList.constructor, "Expected a web element");
 
   });
+
+  this.When(/^remove a movie from my watchlist$/, async function () {  
+    await driver.wait(until.elementLocated(By.css('.button')));
+    let removeMovieFromList = driver.findElement(By.css('.wl-ribbon'));
+    removeMovieFromList.click();
+
+    await driver.wait(until.elementLocated(By.css('.sc-kpOJdX')));
+    let watchListButton = await $('.sc-kpOJdX');
+    watchListButton.click();
+    });
+
+  this.Then(/^the watchlist should be empty$/, async function () {     
+    await driver.wait(until.elementLocated(By.css('.empty-react-watchlist')));
+    let imInMyWatchList = await $('.empty-react-watchlist');
+    assert.instanceOf(imInMyWatchList, imInMyWatchList.constructor, "Expected a web element");
+  });
+ 
+  this.Then(/^I should see the search results based on the title "([^"]*)"$/, async function (title) {
+    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
+    // now the search has finisehd
+    let results = await $('.findResult');
+    assert(results, 'Could not find any results');
+    let firstResult = results[0];
+    let resultText = await firstResult.getText();
+    assert.include(resultText, title, 'Could not find the phrase ' + title + ' in the first search result.');
+    await sleep(sleepTime);
+  });
+
   //scenaio watchlist add/remove end
 
 
