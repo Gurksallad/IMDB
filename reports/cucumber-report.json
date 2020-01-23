@@ -14,11 +14,19 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 8775324645
+=======
+              "duration": 9280772582
+>>>>>>> Stashed changes
             },
             "line": 9,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:20"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:19"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -27,11 +35,19 @@
             "name": "i press the button sign in",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2120269567
+=======
+              "duration": 2006460878
+>>>>>>> Stashed changes
             },
             "line": 14,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:63"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:26"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -40,11 +56,19 @@
             "name": "press the button Create a New Account",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2016189920
+=======
+              "duration": 2552732699
+>>>>>>> Stashed changes
             },
             "line": 15,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:71"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:33"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -53,7 +77,11 @@
             "name": "I enter my name",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2143137679
+=======
+              "duration": 3185275261
+>>>>>>> Stashed changes
             },
             "line": 16,
             "match": {
@@ -109,7 +137,11 @@
             },
             "line": 20,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:127"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:41"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -118,11 +150,19 @@
             "name": "I should be automatically logged in to my account",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 4339625409
+=======
+              "duration": 2336554342
+>>>>>>> Stashed changes
             },
             "line": 21,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:134"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:48"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -130,11 +170,15 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 4894788776
+=======
+              "duration": 2992229853
+>>>>>>> Stashed changes
             },
             "hidden": true,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -153,11 +197,19 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 7909391515
+=======
+              "duration": 9265950970
+>>>>>>> Stashed changes
             },
             "line": 9,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:20"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:19"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -166,11 +218,19 @@
             "name": "i press the button sign in",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2114314021
+=======
+              "duration": 2009999185
+>>>>>>> Stashed changes
             },
             "line": 24,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:63"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:62"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -179,11 +239,19 @@
             "name": "press the sign in with IMDb button",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2205289673
+=======
+              "duration": 2015539431
+>>>>>>> Stashed changes
             },
             "line": 25,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:146"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:70"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -192,11 +260,19 @@
             "name": "I enter my email",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2137506372
+=======
+              "duration": 2184362318
+>>>>>>> Stashed changes
             },
             "line": 26,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:154"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:78"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -205,11 +281,19 @@
             "name": "I enter my password",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2064511291
+=======
+              "duration": 2127102358
+>>>>>>> Stashed changes
             },
             "line": 27,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:162"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:90"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -218,11 +302,19 @@
             "name": "I press the yellow sign in button",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2017127953
+=======
+              "duration": 2229616086
+>>>>>>> Stashed changes
             },
             "line": 28,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:169"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:105"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -231,11 +323,19 @@
             "name": "I should be logged in to my account",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 3334172250
+=======
+              "duration": 2074533135
+>>>>>>> Stashed changes
             },
             "line": 29,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:176"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:117"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -243,11 +343,15 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 1830495364
+=======
+              "duration": 1852072161
+>>>>>>> Stashed changes
             },
             "hidden": true,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -266,11 +370,19 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 8302394833
+=======
+              "duration": 10153198434
+>>>>>>> Stashed changes
             },
             "line": 9,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:20"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:19"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -279,11 +391,19 @@
             "name": "i press the button sign in",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2119007653
+=======
+              "duration": 2038988319
+>>>>>>> Stashed changes
             },
             "line": 32,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:63"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:62"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -292,11 +412,19 @@
             "name": "press the button Create a New Account",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2012784110
+=======
+              "duration": 2071738677
+>>>>>>> Stashed changes
             },
             "line": 33,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:71"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:147"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -305,11 +433,19 @@
             "name": "I enter my name",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2161461313
+=======
+              "duration": 2175018847
+>>>>>>> Stashed changes
             },
             "line": 34,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:79"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:155"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -318,11 +454,19 @@
             "name": "I enter an unused email adress",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2123291868
+=======
+              "duration": 2054372963
+>>>>>>> Stashed changes
             },
             "line": 35,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:187"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:163"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -357,11 +501,19 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2012540533
+=======
+              "duration": 2012732073
+>>>>>>> Stashed changes
             },
             "line": 38,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:127"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:170"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -369,6 +521,7 @@
             "keyword": "Then ",
             "name": "I should get a warning box",
             "result": {
+<<<<<<< Updated upstream
               "status": "passed",
               "duration": 2011579995
             },
@@ -376,17 +529,26 @@
             "match": {
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:220"
             }
+=======
+              "status": "undefined"
+            },
+            "line": 32
+>>>>>>> Stashed changes
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 1926100985
+=======
+              "duration": 1957307324
+>>>>>>> Stashed changes
             },
             "hidden": true,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -416,11 +578,19 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 7655375580
             },
             "line": 7,
             "match": {
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:20"
+=======
+              "duration": 9181614662
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:19"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -429,11 +599,19 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2009962866
+=======
+              "duration": 2010298157
+>>>>>>> Stashed changes
             },
             "line": 10,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:27"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:62"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -442,11 +620,19 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2510002125
+=======
+              "duration": 2008110696
+>>>>>>> Stashed changes
             },
             "line": 11,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:34"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:70"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -455,11 +641,19 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 1792657355
+=======
+              "duration": 2148939841
+>>>>>>> Stashed changes
             },
             "line": 12,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:42"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:78"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -468,23 +662,78 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 2215478023
+=======
+              "duration": 2121919838
+>>>>>>> Stashed changes
             },
             "line": 13,
             "match": {
+<<<<<<< Updated upstream
               "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:49"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:90"
+>>>>>>> Stashed changes
             }
+          },
+          {
+            "arguments": [],
+<<<<<<< Updated upstream
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2877330270
+=======
+            "keyword": "And ",
+            "name": "I type in a faulty password",
+            "result": {
+              "status": "passed",
+              "duration": 95647
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:188"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I re-enter the same faulty password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press Create your IMDb account",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get a warning box",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2877330270
+              "duration": 1884574513
+>>>>>>> Stashed changes
             },
             "hidden": true,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -497,6 +746,6 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature"
+    "uri": "/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature"
   }
 ]

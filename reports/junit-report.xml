@@ -2,6 +2,7 @@
 <testsuites>
     <testsuite name="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
         <properties>
+<<<<<<< Updated upstream
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/konto.feature">
             </property>
         </properties>
@@ -22,10 +23,25 @@
         <testcase name="And I press Create your IMDb account" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.011438749">
         </testcase>
         <testcase name="Then I should be automatically logged in to my account" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="4.339625409">
+=======
+            <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="9.280772582">
+        </testcase>
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.006460878">
+        </testcase>
+        <testcase name="And I press the categories button titles" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.552732699">
+        </testcase>
+        <testcase name="When I press the search button" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="3.185275261">
+        </testcase>
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.336554342">
+>>>>>>> Stashed changes
         </testcase>
     </testsuite>
     <testsuite name="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" tests="7" failures="0" skipped="0">
         <properties>
+<<<<<<< Updated upstream
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/konto.feature">
             </property>
         </properties>
@@ -38,12 +54,31 @@
         <testcase name="And I enter my email" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.137506372">
         </testcase>
         <testcase name="And I enter my password" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.064511291">
+=======
+            <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="9.26595097">
+        </testcase>
+        <testcase name="When i press the button sign in" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.009999185">
+        </testcase>
+        <testcase name="And press the button Create a New Account" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.015539431">
+        </testcase>
+        <testcase name="And I enter my name" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.184362318">
+        </testcase>
+        <testcase name="And I enter a email adress" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.127102358">
+        </testcase>
+        <testcase name="And I type in a password" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.229616086">
+        </testcase>
+        <testcase name="And I re-enter the same password" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.074533135">
+>>>>>>> Stashed changes
         </testcase>
         <testcase name="And I press the yellow sign in button" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.017127953">
         </testcase>
         <testcase name="Then I should be logged in to my account" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="3.33417225">
         </testcase>
     </testsuite>
+<<<<<<< Updated upstream
     <testsuite name="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/konto.feature">
@@ -69,13 +104,52 @@
         </testcase>
     </testsuite>
     <testsuite name=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
+=======
+    <testsuite name=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" tests="7" failures="0" skipped="1">
         <properties>
-            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature">
+            <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="10.153198434">
+        </testcase>
+        <testcase name="When i press the button sign in" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.038988319">
+        </testcase>
+        <testcase name="And press the sign in with IMDb button" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.071738677">
+        </testcase>
+        <testcase name="And I enter my email" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.175018847">
+        </testcase>
+        <testcase name="And I enter my password" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.054372963">
+        </testcase>
+        <testcase name="And I press the yellow sign in button" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.012732073">
+        </testcase>
+        <testcase name="Then I should be logged in to my account" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" tests="9" failures="0" skipped="3">
+>>>>>>> Stashed changes
+        <properties>
+            <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature">
+            </property>
+        </properties>
+<<<<<<< Updated upstream
         <testcase name="Given That I’m on the platform IMDb.com" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="7.65537558">
         </testcase>
         <testcase name="When I enter the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.009962866">
+=======
+        <testcase name="Given That I’m on the platform IMDb.com" classname=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="9.181614662">
+        </testcase>
+        <testcase name="When i press the button sign in" classname=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.010298157">
+        </testcase>
+        <testcase name="And press the button Create a New Account" classname=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.008110696">
+        </testcase>
+        <testcase name="And I enter my name" classname=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.148939841">
+        </testcase>
+        <testcase name="And I enter a email adress" classname=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.121919838">
+        </testcase>
+        <testcase name="And I type in a faulty password" classname=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="0.000095647">
+>>>>>>> Stashed changes
         </testcase>
         <testcase name="And I press the categories button titles" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.510002125">
         </testcase>
