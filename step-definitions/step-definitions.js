@@ -227,49 +227,52 @@ module.exports = function () {
   this.When(/^i click on the watchlist$/, async function () {
     let watchListButton = await $('.sc-kpOJdX');
     watchListButton.click();
-
+    await sleep(sleepTime);
     await driver.wait(until.elementLocated(By.css('.empty-react-watchlist')));
     let imInMyWatchList = await $('.empty-react-watchlist');
     assert.instanceOf(imInMyWatchList, imInMyWatchList.constructor, "Expected a web element");
+    await sleep(sleepTime);
   });
 
   this.When(/^find a movie to add$/, async function () {  
     await driver.wait(until.elementLocated(By.linkText('Browse Popular Movies')));
     let findMovieToAdd = driver.findElement(By.linkText('Browse Popular Movies'));
     findMovieToAdd.click();
-
+    await sleep(sleepTime);
     await driver.wait(until.elementLocated(By.css('.chart')))
     let findMovieToList = driver.findElement(by.linkText('The Shawshank Redemption'));
     findMovieToList.click();
-
+    await sleep(sleepTime);
     await driver.wait(until.elementLocated(By.css('.uc-add-wl-button')));
     let checkAddedMovie = await $('.uc-add-wl-button');
     assert.instanceOf(checkAddedMovie, checkAddedMovie.constructor, "Expected a web element");
+    await sleep(sleepTime);
   });
 
   this.When(/^add a to watchlist$/, async function () {
     let addMovieToList = driver.findElement(by.css('.uc-add-wl-button'));
     addMovieToList.click();
-    sleep(sleepTime)
+    await sleep(sleepTime);
 
     await driver.wait(until.elementLocated(By.css('.sc-kpOJdX')));
     let watchListButton = await $('.sc-kpOJdX');
     watchListButton.click();
-
+    await sleep(sleepTime);
     await driver.wait(until.elementLocated(By.css('.lister-item')));
     let checkMyWatchList = await $('.lister-item');
     assert.instanceOf(checkMyWatchList, checkMyWatchList.constructor, "Expected a web element");
-
+    await sleep(sleepTime);
   });
 
   this.When(/^remove a movie from my watchlist$/, async function () {  
     await driver.wait(until.elementLocated(By.css('.button')));
     let removeMovieFromList = driver.findElement(By.css('.wl-ribbon'));
     removeMovieFromList.click();
-
+    await sleep(sleepTime);
     await driver.wait(until.elementLocated(By.css('.sc-kpOJdX')));
     let watchListButton = await $('.sc-kpOJdX');
     watchListButton.click();
+    await sleep(sleepTime);
     });
 
   this.Then(/^the watchlist should be empty$/, async function () {     

@@ -5,19 +5,19 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/account-settings.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="11.1133363">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="8.5743365">
         </testcase>
-        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="6.2247674">
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="5.815963701">
         </testcase>
-        <testcase name="When i click on the watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="22.5021111">
+        <testcase name="When i click on the watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="4.603418699">
         </testcase>
-        <testcase name="And find a movie to add" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="15.730403099">
+        <testcase name="And find a movie to add" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="8.1284381">
         </testcase>
-        <testcase name="And add a to watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="2.278969199">
+        <testcase name="And add a to watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="6.031975699">
         </testcase>
-        <testcase name="And remove a movie from my watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="0.2563517">
+        <testcase name="And remove a movie from my watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="4.0181012">
         </testcase>
-        <testcase name="Then the watchlist should be empty" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="2.197263999">
+        <testcase name="Then the watchlist should be empty" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="0.0301029">
         </testcase>
     </testsuite>
 </testsuites>
