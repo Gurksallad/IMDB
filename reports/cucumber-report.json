@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "description": "  As a user I want to search for titles, TV-episodes, celebs, companies and keywords\n  to get a relevant result using the english language",
@@ -325,3 +326,5 @@
 >>>>>>> master
   }
 ]
+=======
+>>>>>>> master
