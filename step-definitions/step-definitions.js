@@ -214,8 +214,10 @@ module.exports = function () {
     let signInButton = await driver.findElement(by.linkText("Sign in with IMDb"))
     signInButton.click()
     assert(signInButton, "can not find sign in with IMDb button");
-  //scenario watchlist add/remove start
-  this.Given(/^that i am logged in$/, async function () {
+  
+    //scenario watchlist add/remove start
+  
+    this.Given(/^that i am logged in$/, async function () {
     let button = await $('.imdb-header__signin-text')
     button.click()
     await driver.wait(until.elementLocated(By.css('.imdb-logo')))
@@ -450,6 +452,11 @@ module.exports = function () {
   });
 
 }
+
+
+
+
+
 
 
 
