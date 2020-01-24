@@ -17,13 +17,7 @@ module.exports = function () {
     assert.instanceOf(searchField, searchField.constructor, "Expected a web element")
   });
 */
-  this.Given(/^That I’m on the platform IMDb\.com$/, async function () {
-    await helpers.loadPage('https://imdb.com');
-    await sleep(1000)
-    searchField = await $('#home_img_holder')
-    assert.instanceOf(searchField, searchField.constructor, "Expected a web element")
 
-  });
   this.When(/^I enter the title "([^"]*)"$/, async function (searchText) {
     searchField = await $('#suggestion-search');
     assert(searchField, 'Can not find the search field on the page');
@@ -172,7 +166,7 @@ module.exports = function () {
 
   this.When(/^I type in a password$/, async function () {
     let passwordInput = await $('#ap_password')
-     password = 'bertilärbäst'
+    password = 'bertilärbäst'
     await passwordInput.sendKeys(password)
     assert.instanceOf(passwordInput, passwordInput.constructor, "could not enter password");
 
@@ -208,33 +202,33 @@ module.exports = function () {
     await sleep(sleepTime)
 
   });
-  
+
 
   this.When(/^press the sign in with IMDb button$/, async function () {
     let signInButton = await driver.findElement(by.linkText("Sign in with IMDb"))
     signInButton.click()
     assert(signInButton, "can not find sign in with IMDb button");
-  //scenario watchlist add/remove start
-  this.Given(/^that i am logged in$/, async function () {
-    let button = await $('.imdb-header__signin-text')
-    button.click()
-    await driver.wait(until.elementLocated(By.css('.imdb-logo')))
-    button = await $('.imdb-logo')
-    button.click()
-    await driver.wait(until.elementLocated(By.name('email')))
-    driver.findElement(by.name("email")).click();
-    driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
-    driver.findElement(by.name("password")).click()
-    driver.findElement(by.name("password")).sendKeys('jheamobps5is')
-    await driver.wait(until.elementLocated(By.id("signInSubmit")))
-    button = driver.findElement(by.id("signInSubmit"))
-    button.click()
-    await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
-    let loggedInUserScreen = await $('.ipc-icon--account-circle')
-    assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
-  });
+    //scenario watchlist add/remove start
+    this.Given(/^that i am logged in$/, async function () {
+      let button = await $('.imdb-header__signin-text')
+      button.click()
+      await driver.wait(until.elementLocated(By.css('.imdb-logo')))
+      button = await $('.imdb-logo')
+      button.click()
+      await driver.wait(until.elementLocated(By.name('email')))
+      driver.findElement(by.name("email")).click();
+      driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
+      driver.findElement(by.name("password")).click()
+      driver.findElement(by.name("password")).sendKeys('jheamobps5is')
+      await driver.wait(until.elementLocated(By.id("signInSubmit")))
+      button = driver.findElement(by.id("signInSubmit"))
+      button.click()
+      await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
+      let loggedInUserScreen = await $('.ipc-icon--account-circle')
+      assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
+    });
 
-      await sleep(sleepTime)
+    await sleep(sleepTime)
   });
 
   this.When(/^I enter my email$/, async function () {
@@ -258,7 +252,7 @@ module.exports = function () {
     assert(yellowSignInButton, "can not find the yellow sign in button");
     await sleep(sleepTime)
   });
-  
+
   this.Then(/^I should be logged in to my account$/, async function () {
     // Grab the label element where the user name is shown
     let logInLabel = await $('label[for="navUserMenu"] .ipc-button__text')
@@ -270,7 +264,7 @@ module.exports = function () {
   });
 
 
-  
+
   this.When(/^I enter an unused email adress$/, async function () {
     let anotherEmailInput = await $('#ap_email')
     // We can use create multiple "emails" that go to the same gmail account
@@ -284,10 +278,10 @@ module.exports = function () {
     await sleep(sleepTime)
   });
 
-  
+
   this.When(/^I type in a faulty password$/, async function () {
     let passwordInputBox = await $('#ap_password')
-     faultyPassword = 'bertil'
+    faultyPassword = 'bertil'
     await passwordInputBox.sendKeys(faultyPassword)
     assert.instanceOf(passwordInputBox, passwordInputBox.constructor, "could not enter password");
 
@@ -305,13 +299,13 @@ module.exports = function () {
 
 
   this.Then(/^I should get a warning box$/, async function () {
-        // Grab the label element where the user name is shown
+    // Grab the label element where the user name is shown
     let errorMessage = await $('#auth-error-message-box > div')
     assert.instanceOf(errorMessage, errorMessage.constructor, 'could not find error "');
 
-    
+
     await sleep(sleepTime)
-    
+
   });
 
   this.When(/^I reenter a not matching password$/, async function () {
@@ -336,7 +330,7 @@ module.exports = function () {
     await sleep(sleepTime);
   });
 
-  this.When(/^find a movie to add$/, async function () {  
+  this.When(/^find a movie to add$/, async function () {
     await driver.wait(until.elementLocated(By.linkText('Browse Popular Movies')));
     let findMovieToAdd = driver.findElement(By.linkText('Browse Popular Movies'));
     findMovieToAdd.click();
@@ -366,7 +360,7 @@ module.exports = function () {
     await sleep(sleepTime);
   });
 
-  this.When(/^remove a movie from my watchlist$/, async function () {  
+  this.When(/^remove a movie from my watchlist$/, async function () {
     await driver.wait(until.elementLocated(By.css('.button')));
     let removeMovieFromList = driver.findElement(By.css('.wl-ribbon'));
     removeMovieFromList.click();
@@ -375,9 +369,9 @@ module.exports = function () {
     let watchListButton = await $('.sc-kpOJdX');
     watchListButton.click();
     await sleep(sleepTime);
-    });
+  });
 
-  this.Then(/^the watchlist should be empty$/, async function () {     
+  this.Then(/^the watchlist should be empty$/, async function () {
     await driver.wait(until.elementLocated(By.css('.empty-react-watchlist')));
     let imInMyWatchList = await $('.empty-react-watchlist');
     assert.instanceOf(imInMyWatchList, imInMyWatchList.constructor, "Expected a web element");
@@ -387,41 +381,7 @@ module.exports = function () {
   //scenaio watchlist add/remove end
 
 
-  this.Given(/^click on account settings$/, async function () {
-    let button = await driver.findElement(by.css(('#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div._3cMNCrSVkxQhCkVs1JLIib.navbar__user.sc-kgoBCf.iTQkiJ > div > label.ipc-icon-button.navbar__flyout__icon-on-mobile.imdb-header__account-toggle--logged-in.imdb-header__accountmenu-toggle.ipc-icon-button--baseAlt.ipc-icon-button--onBase')));
-    button.click();
-    await driver.wait(until.elementLocated(by.css('#navUserMenu-contents > ul > a:nth-child(7)')));
-    button = await $('#navUserMenu-contents > ul > a:nth-child(7)')
-    button.click();
-  });
 
-  this.Given(/^click on content settings$/, async function () {
-    let button = await driver.findElement(by.linkText(("Content settings")));
-    button.click();
-  });
-
-  this.Given(/^i change the title pages$/, async function () {
-    let displayButton = await driver.findElement(by.name(("ttco")));
-    displayButton.click();
-    countryButton = await driver.findElement(by.value("SE"));
-    countryButton.click
-  });
-
-  this.Given(/^i change the name pages$/, async function () {
-
-  });
-
-  this.Given(/^i change the contributors$/, async function () {
-
-  });
-
-  this.When(/^i click submit$/, async function () {
-
-  });
-
-  this.Then(/^my settings should be saved$/, async function () {
-
-  });
 
   this.When(/^I click the sign in button$/, async function () {
     let signInButton = await driver.findElement(by.linkText("Sign In"));
@@ -435,12 +395,6 @@ module.exports = function () {
     newAccountButton.click();
     assert(newAccountButton, "can not find the create a new account button");
     await sleep(sleepTime);
-  });
-
-  this.When(/^I enter my name$/, async function () {
-    let nameField = driver.findElement(by.css('#ap_customer_name'));
-    assert(nameField, 'Can not find the name field on the page');
-    nameField.sendKeys('Börje');
   });
 
   this.When(/^I enter my e\-mail$/, async function () {
@@ -462,7 +416,7 @@ module.exports = function () {
   });
 
   this.When(/^I click the create an IMDB account button$/, async function () {
-    let createAccountButton = await driver.findElement(by.css('#continue'));
+    let createAccountButton = await driver.findElement(by.id('#continue'));
     createAccountButton.click();
     assert(createAccountButton, "can not find the create an IMDB account button");
     await sleep(sleepTime);

@@ -2,12 +2,7 @@ let { $, sleep } = require('./funcs');
 
 module.exports = function () {
   
-  this.Given(/^That I’m on the platform IMDb\.com$/, async function () {
-    await helpers.loadPage('https://imdb.com');
-    await sleep(1000)
-    searchField = await $('#home_img_holder')
-    assert.instanceOf(searchField, searchField.constructor, "Expected a web element")
-  });
+  
   
   this.Given(/^that I am logged in$/, async function () {
     let button = await $('.imdb-header__signin-text')
