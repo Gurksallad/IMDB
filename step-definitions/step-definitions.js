@@ -207,30 +207,11 @@ module.exports = function () {
   this.When(/^press the sign in with IMDb button$/, async function () {
     let signInButton = await driver.findElement(by.linkText("Sign in with IMDb"))
     signInButton.click()
+
     assert(signInButton, "can not find sign in with IMDb button");
-    //scenario watchlist add/remove start
-    this.Given(/^that i am logged in$/, async function () {
-      let button = await $('.imdb-header__signin-text')
-      button.click()
-      await driver.wait(until.elementLocated(By.css('.imdb-logo')))
-      button = await $('.imdb-logo')
-      button.click()
-      await driver.wait(until.elementLocated(By.name('email')))
-      driver.findElement(by.name("email")).click();
-      driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
-      driver.findElement(by.name("password")).click()
-      driver.findElement(by.name("password")).sendKeys('jheamobps5is')
-      await driver.wait(until.elementLocated(By.id("signInSubmit")))
-      button = driver.findElement(by.id("signInSubmit"))
-      button.click()
-      await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
-      let loggedInUserScreen = await $('.ipc-icon--account-circle')
-      assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
-    });
-
-    await sleep(sleepTime)
   });
-
+   
+  
   this.When(/^I enter my email$/, async function () {
     let myEmail = await $('#ap_email')
     await myEmail.sendKeys(regEmail)
@@ -238,15 +219,14 @@ module.exports = function () {
     await sleep(sleepTime)
 
   });
-
-  this.When(/^I enter my password$/, async function () {
+    this.When(/^I enter my password$/, async function () {
     let myPassword = await $('#ap_password')
     await myPassword.sendKeys(password)
     assert.instanceOf(myPassword, myPassword.constructor, "could not enter password");
     await sleep(sleepTime)
   });
 
-  this.When(/^I press the yellow sign in button$/, async function () {
+ this.When(/^I press the yellow sign in button$/, async function () {
     let yellowSignInButton = await $('#signInSubmit')
     yellowSignInButton.click()
     assert(yellowSignInButton, "can not find the yellow sign in button");
@@ -316,6 +296,39 @@ module.exports = function () {
     await sleep(sleepTime)
   });
 
+
+
+   
+  
+  
+    //scenario watchlist add/remove start
+    this.Given(/^that i am logged in$/, async function () {
+      let button = await $('.imdb-header__signin-text')
+      button.click()
+      await driver.wait(until.elementLocated(By.css('.imdb-logo')))
+      button = await $('.imdb-logo')
+      button.click()
+      await driver.wait(until.elementLocated(By.name('email')))
+      driver.findElement(by.name("email")).click();
+      driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
+      driver.findElement(by.name("password")).click()
+      driver.findElement(by.name("password")).sendKeys('jheamobps5is')
+      await driver.wait(until.elementLocated(By.id("signInSubmit")))
+      button = driver.findElement(by.id("signInSubmit"))
+      button.click()
+      await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
+      let loggedInUserScreen = await $('.ipc-icon--account-circle')
+      assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
+   
+
+    await sleep(sleepTime)
+  });
+
+  
+
+
+
+ 
 
 
 
