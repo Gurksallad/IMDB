@@ -1,4 +1,4 @@
-Feature:
+Feature: search
   As a user I want to search for titles, TV-episodes, celebs, companies and keywords
   to get a relevant result using the english language
 

@@ -1,4 +1,4 @@
-Feature: Feature name
+Feature: account
 As a user i want to create a account, by entering in my namne, a email and a password
 As a user I want to be able to log in to the account that i just created  
  

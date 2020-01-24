@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
+    <testsuite name="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="8">
         <properties>
 <<<<<<< Updated upstream
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/konto.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="8.775324645">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="9.39072634">
         </testcase>
-        <testcase name="When i press the button sign in" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.120269567">
+        <testcase name="When i press the button sign in" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And press the button Create a New Account" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.01618992">
+        <testcase name="And press the button Create a New Account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I enter my name" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.143137679">
+        <testcase name="And I enter my name" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I enter a email adress" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.129929508">
+        <testcase name="And I enter a email adress" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I type in a password" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.151505118">
+        <testcase name="And I type in a password" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I re-enter the same password" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.061136369">
+        <testcase name="And I re-enter the same password" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I press Create your IMDb account" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.011438749">
+        <testcase name="And I press Create your IMDb account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
+<<<<<<< Updated upstream
         <testcase name="Then I should be automatically logged in to my account" classname="feature-name;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="4.339625409">
 =======
             <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature">
@@ -37,22 +52,34 @@
         </testcase>
         <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.336554342">
 >>>>>>> Stashed changes
+=======
+        <testcase name="Then I should be automatically logged in to my account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
+            <skipped message="">
+            </skipped>
+>>>>>>> Stashed changes
         </testcase>
     </testsuite>
-    <testsuite name="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" tests="7" failures="0" skipped="0">
+    <testsuite name="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" tests="7" failures="0" skipped="6">
         <properties>
 <<<<<<< Updated upstream
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/konto.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="7.909391515">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="7.767942763">
         </testcase>
-        <testcase name="When i press the button sign in" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.114314021">
+        <testcase name="When i press the button sign in" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And press the sign in with IMDb button" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.205289673">
+        <testcase name="And press the sign in with IMDb button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I enter my email" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.137506372">
+        <testcase name="And I enter my email" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+            <skipped message="">
+            </skipped>
         </testcase>
+<<<<<<< Updated upstream
         <testcase name="And I enter my password" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.064511291">
 =======
             <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature">
@@ -72,37 +99,67 @@
         </testcase>
         <testcase name="And I re-enter the same password" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.074533135">
 >>>>>>> Stashed changes
+=======
+        <testcase name="And I enter my password" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+            <skipped message="">
+            </skipped>
+>>>>>>> Stashed changes
         </testcase>
-        <testcase name="And I press the yellow sign in button" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.017127953">
+        <testcase name="And I press the yellow sign in button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then I should be logged in to my account" classname="feature-name;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="3.33417225">
+        <testcase name="Then I should be logged in to my account" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <testsuite name="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" tests="9" failures="0" skipped="0">
+=======
+    <testsuite name="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" tests="9" failures="0" skipped="8">
+>>>>>>> Stashed changes
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/konto.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="8.302394833">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="8.564063064">
         </testcase>
-        <testcase name="When i press the button sign in" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.119007653">
+        <testcase name="When i press the button sign in" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And press the button Create a New Account" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.01278411">
+        <testcase name="And press the button Create a New Account" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I enter my name" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.161461313">
+        <testcase name="And I enter my name" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I enter an unused email adress" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.123291868">
+        <testcase name="And I enter an unused email adress" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I type in a faulty password" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.089567877">
+        <testcase name="And I type in a faulty password" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I re-enter the same faulty password" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.048067366">
+        <testcase name="And I re-enter the same faulty password" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I press Create your IMDb account" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.012540533">
+        <testcase name="And I press Create your IMDb account" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then I should get a warning box" classname="feature-name;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.011579995">
+        <testcase name="Then I should get a warning box" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
+<<<<<<< Updated upstream
     <testsuite name=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
 =======
     <testsuite name=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" tests="7" failures="0" skipped="1">
@@ -123,16 +180,43 @@
         <testcase name="And I press the yellow sign in button" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.012732073">
         </testcase>
         <testcase name="Then I should be logged in to my account" classname=";i-want-to-login-with-the-same-email-and-password-that-i-registered-with">
+=======
+    <testsuite name="rating;movie" tests="2" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/rating.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname="rating;movie" time="7.567637572">
+        </testcase>
+        <testcase name="And that I have searched for a movie title" classname="rating;movie">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
+    <testsuite name="rating;tv-episode" tests="2" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/IMDB/features/rating.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname="rating;tv-episode" time="7.531907274">
+        </testcase>
+        <testcase name="And that I have searched for a tv-episode" classname="rating;tv-episode">
+>>>>>>> Stashed changes
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+<<<<<<< Updated upstream
     <testsuite name=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" tests="9" failures="0" skipped="3">
+>>>>>>> Stashed changes
+=======
+    <testsuite name="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
 >>>>>>> Stashed changes
         <properties>
             <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         <testcase name="Given That I’m on the platform IMDb.com" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="7.65537558">
         </testcase>
@@ -150,12 +234,17 @@
         </testcase>
         <testcase name="And I type in a faulty password" classname=";if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="0.000095647">
 >>>>>>> Stashed changes
+=======
+        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="8.190031424">
         </testcase>
-        <testcase name="And I press the categories button titles" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.510002125">
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.013281379">
+>>>>>>> Stashed changes
         </testcase>
-        <testcase name="When I press the search button" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="1.792657355">
+        <testcase name="And I press the categories button titles" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.516839204">
         </testcase>
-        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.215478023">
+        <testcase name="When I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="1.716881756">
+        </testcase>
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.19484051">
         </testcase>
     </testsuite>
 </testsuites>
