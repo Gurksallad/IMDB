@@ -280,17 +280,7 @@ module.exports = function () {
     let imInMyWatchList = await $('.empty-react-watchlist');
     assert.instanceOf(imInMyWatchList, imInMyWatchList.constructor, "Expected a web element");
   });
- 
-  this.Then(/^I should see the search results based on the title "([^"]*)"$/, async function (title) {
-    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
-    // now the search has finisehd
-    let results = await $('.findResult');
-    assert(results, 'Could not find any results');
-    let firstResult = results[0];
-    let resultText = await firstResult.getText();
-    assert.include(resultText, title, 'Could not find the phrase ' + title + ' in the first search result.');
-    await sleep(sleepTime);
-  });
+
 
   //scenaio watchlist add/remove end
 
