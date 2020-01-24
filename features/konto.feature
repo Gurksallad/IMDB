@@ -5,7 +5,6 @@ As a user I want to be able to log in to the account that i just created
 
 
  Background:
-
   Given  That I’m on the platform IMDb.com
 
 
@@ -37,3 +36,13 @@ As a user I want to be able to log in to the account that i just created
   And I re-enter the same faulty password
   And I press Create your IMDb account
   Then I should get a warning box
+
+  Scenario: If my repeated password does not match the first one I entered, I will receive a warning when I try to create my account
+    When i press the button sign in
+    And press the button Create a New Account
+    And I enter my name
+    And I enter a email adress
+    And I enter my password
+    And I reenter a not matching password
+    And I press Create your IMDb account
+    Then I should get a warning box

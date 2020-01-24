@@ -228,6 +228,17 @@ module.exports = function () {
     
   });
 
+  this.When(/^I reenter a not matching password$/, async function () {
+    let reEnterFaultyPasswordInputBox = await $('#ap_password_check')
+    await reEnterFaultyPasswordInputBox.sendKeys(faultyPassword)
+    assert.instanceOf(reEnterFaultyPasswordInputBox, reEnterFaultyPasswordInputBox.constructor, "could not enter faulty password");
+
+    await sleep(sleepTime)
+  });
+
+
+
+
 
 }
 
