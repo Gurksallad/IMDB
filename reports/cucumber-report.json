@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "elements": [
@@ -6,6 +7,29 @@
         "keyword": "Scenario",
         "line": 7,
         "name": "As a user i want to be able to add/remove from my watchlist",
+=======
+<<<<<<< HEAD
+[
+  {
+    "description": "As a user i want to create a account, by entering in my namne, a email and a password\nAs a user I want to be able to log in to the account that i just created  ",
+    "elements": [
+      {
+<<<<<<< HEAD
+        "id": "account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
+=======
+<<<<<<< HEAD
+        "id": "as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "As a user I want to create a list",
+=======
+        "id": ";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
+>>>>>>> master
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "I type in an unused email adress and a password i should be able to create an account",
+>>>>>>> master
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
@@ -13,19 +37,60 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 22390780500
             },
             "line": 5,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 8775324645
+=======
+              "duration": 9280772582
+>>>>>>> Stashed changes
+=======
+              "duration": 9390726340
+>>>>>>> Stashed changes
+=======
+              "duration": 9376841294
+>>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+              "duration": 6985890100
+=======
+              "duration": 7935537487
+>>>>>>> master
+>>>>>>> master
+            },
+            "line": 8,
+            "match": {
+<<<<<<< HEAD
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:20"
+=======
+<<<<<<< HEAD
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:45"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
             "keyword": "Given ",
             "name": "that i am logged in",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 18216440401
             },
             "line": 8,
@@ -45,10 +110,69 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:227"
             }
+=======
+              "duration": 5140326800
+            },
+            "line": 8,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:53"
+=======
+            "keyword": "When ",
+            "name": "i press the button sign in",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2110628002
+            },
+            "line": 13,
+            "match": {
+<<<<<<< HEAD
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:63"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:60"
+>>>>>>> master
+>>>>>>> master
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 14
+>>>>>>> Stashed changes
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
+            "name": "i have clicked create a new list",
+            "result": {
+              "status": "passed",
+              "duration": 4876093601
+            },
+            "line": 9,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:73"
+=======
+            "name": "press the button Create a New Account",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2013352600
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:71"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 15
+>>>>>>> Stashed changes
+>>>>>>> master
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< HEAD
             "name": "find a movie to add",
             "result": {
               "status": "passed",
@@ -58,10 +182,36 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:237"
             }
+=======
+            "name": "I enter my name",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 2143137679
+=======
+              "duration": 3185275261
+>>>>>>> Stashed changes
+=======
+              "status": "undefined"
+>>>>>>> Stashed changes
+            },
+            "line": 16
+=======
+              "duration": 2190463433
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:79"
+            }
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "add a to watchlist",
             "result": {
               "status": "passed",
@@ -71,10 +221,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:252"
             }
+=======
+            "name": "I enter a email adress",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "undefined"
+            },
+            "line": 17
+=======
+              "status": "passed",
+              "duration": 2084899993
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:91"
+            }
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "remove a movie from my watchlist",
             "result": {
               "status": "passed",
@@ -84,10 +252,81 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:267"
             }
+=======
+            "name": "I type in a password",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "undefined"
+            },
+            "line": 18
+=======
+              "status": "passed",
+              "duration": 2154981910
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:106"
+            }
+>>>>>>> Stashed changes
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I re-enter the same password",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "undefined"
+            },
+            "line": 19
+=======
+              "status": "passed",
+              "duration": 2045270852
+            },
+            "line": 18,
+            "match": {
+<<<<<<< HEAD
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:118"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:111"
+>>>>>>> master
+>>>>>>> master
+            }
+>>>>>>> Stashed changes
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< HEAD
+            "name": "i have given my list a name",
+            "result": {
+              "status": "passed",
+              "duration": 1003425700
+=======
+            "name": "I press Create your IMDb account",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "undefined"
+            },
+<<<<<<< Updated upstream
+            "line": 20,
+=======
+              "status": "passed",
+              "duration": 2009883714
+            },
+            "line": 19,
+>>>>>>> Stashed changes
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:127"
+            }
+=======
+            "line": 20
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
             "name": "the watchlist should be empty",
             "result": {
               "status": "passed",
@@ -97,17 +336,54 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:278"
             }
+=======
+            "name": "I should be automatically logged in to my account",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 4344451200
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:134"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 21
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 6211052500
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 4894788776
+=======
+              "duration": 2992229853
+>>>>>>> Stashed changes
+=======
+              "duration": 1946668506
+>>>>>>> Stashed changes
+=======
+              "duration": 1797142339
+>>>>>>> Stashed changes
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> master
             }
           }
         ],
@@ -115,10 +391,17 @@
         "type": "scenario"
       },
       {
+<<<<<<< HEAD
         "id": "as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message",
         "keyword": "Scenario",
         "line": 16,
         "name": "As a user when I try to use a registered e-mail I should get an error message",
+=======
+        "id": "account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "I want to login with the same email and password that i registered with",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
@@ -126,16 +409,37 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 28521540200
             },
             "line": 5,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 7909391515
+=======
+              "duration": 9265950970
+>>>>>>> Stashed changes
+=======
+              "duration": 7767942763
+>>>>>>> Stashed changes
+=======
+              "duration": 8320510597
+>>>>>>> Stashed changes
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:20"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
             "name": "I click the sign in button",
             "result": {
               "status": "passed",
@@ -158,10 +462,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:295"
             }
+=======
+            "name": "i press the button sign in",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2097688259
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:63"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 24
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I enter my name",
             "result": {
               "status": "passed",
@@ -184,10 +506,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:308"
             }
+=======
+            "name": "press the sign in with IMDb button",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2082872776
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:146"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 25
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I enter a valid password",
             "result": {
               "status": "passed",
@@ -197,10 +537,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:314"
             }
+=======
+            "name": "I enter my email",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2205293538
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:154"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 26
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I re-enter the password",
             "result": {
               "status": "passed",
@@ -210,10 +568,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:320"
             }
+=======
+            "name": "I enter my password",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2047329274
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:162"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 27
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I click the create an IMDB account button",
             "result": {
               "status": "passed",
@@ -223,10 +599,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:326"
             }
+=======
+            "name": "I press the yellow sign in button",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2058472980
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:169"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 28
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
             "name": "I should receive an error message",
             "result": {
               "status": "passed",
@@ -236,22 +630,60 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:333"
             }
+=======
+            "name": "I should be logged in to my account",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 3596030624
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:176"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 29
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 5418742499
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 1830495364
+=======
+              "duration": 1852072161
+>>>>>>> Stashed changes
+=======
+              "duration": 1914620041
+>>>>>>> Stashed changes
+=======
+              "duration": 2747504638
+>>>>>>> Stashed changes
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> master
             }
           }
         ],
         "tags": [],
         "type": "scenario"
+<<<<<<< HEAD
       }
     ],
     "id": "as-a-user-i-want-to-manage-my-account",
@@ -269,6 +701,14 @@
         "keyword": "Scenario",
         "line": 8,
         "name": "I type in an unused email adress and a password i should be able to create an account",
+=======
+      },
+      {
+        "id": "account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "if I enter a faulty password, then i should get a warning when trying to create the accouunt",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
@@ -276,11 +716,31 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 23862443000
             },
             "line": 6,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 8302394833
+=======
+              "duration": 10153198434
+>>>>>>> Stashed changes
+=======
+              "duration": 8564063064
+>>>>>>> Stashed changes
+=======
+              "duration": 8331170841
+>>>>>>> Stashed changes
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:20"
+>>>>>>> master
             }
           },
           {
@@ -288,6 +748,7 @@
             "keyword": "When ",
             "name": "i press the button sign in",
             "result": {
+<<<<<<< HEAD
               "status": "passed",
               "duration": 2106344000
             },
@@ -295,12 +756,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:127"
             }
+=======
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2097084573
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:63"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 32
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "press the button Create a New Account",
             "result": {
+<<<<<<< HEAD
               "status": "passed",
               "duration": 7079320701
             },
@@ -308,10 +785,26 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:135"
             }
+=======
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2011473042
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:71"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 33
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I enter my name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
@@ -321,10 +814,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:143"
             }
+=======
+            "name": "I enter my name",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2118655688
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:79"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 34
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I enter a email adress",
             "result": {
               "status": "passed",
@@ -334,10 +845,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:154"
             }
+=======
+            "name": "I enter an unused email adress",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "passed",
+              "duration": 2088555893
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:188"
+            }
+=======
+              "status": "undefined"
+            },
+            "line": 35
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I type in a password \"bertilärbäst\"",
             "result": {
               "status": "passed",
@@ -347,10 +876,28 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:169"
             }
+=======
+            "name": "I type in a faulty password",
+            "result": {
+<<<<<<< Updated upstream
+              "status": "undefined"
+            },
+            "line": 36
+=======
+              "status": "passed",
+              "duration": 2077115781
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:202"
+            }
+>>>>>>> Stashed changes
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I re-enter the same password \"bertilärbäst\"",
             "result": {
               "status": "passed",
@@ -360,12 +907,20 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:180"
             }
+=======
+            "name": "I re-enter the same faulty password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I press Create your IMDb account",
             "result": {
+<<<<<<< HEAD
               "status": "passed",
               "duration": 2521748200
             },
@@ -373,10 +928,16 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:190"
             }
+=======
+              "status": "undefined"
+            },
+            "line": 38
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
             "name": "I should be automatically logged in to my account with the name \"Bertilsdotter\"",
             "result": {
               "status": "passed",
@@ -386,28 +947,64 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:198"
             }
+=======
+            "name": "I should get a warning box",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 4810648701
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+<<<<<<< Updated upstream
+              "duration": 1816485766
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> master
             }
           }
         ],
         "tags": [],
         "type": "scenario"
+<<<<<<< HEAD
       },
       {
         "id": "title;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb",
         "keyword": "Scenario",
         "line": 18,
         "name": "As a user i want to be able to search on titles on IMDB",
+=======
+      }
+    ],
+    "id": "account",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "account",
+    "tags": [],
+    "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/konto.feature"
+  },
+  {
+    "description": "as a user I want to be able to rate movies and tv-shows",
+    "elements": [
+      {
+        "id": "rating;movie",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "movie",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
@@ -415,6 +1012,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 28604067001
             },
             "line": 6,
@@ -446,11 +1044,26 @@
             "line": 20,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:31"
+=======
+              "duration": 7567637572
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:20"
+=======
+              "duration": 2039377470
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:212"
+>>>>>>> Stashed changes
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I press the search button",
             "result": {
               "status": "passed",
@@ -473,17 +1086,56 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:46"
             }
+=======
+            "name": "that I have searched for a movie title",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 7413841100
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 2012540533
+=======
+              "duration": 2012732073
+>>>>>>> Stashed changes
+=======
+              "duration": 1900813637
+>>>>>>> Stashed changes
+            },
+            "hidden": true,
+            "match": {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:127"
+=======
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:170"
+>>>>>>> Stashed changes
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> Stashed changes
+=======
+              "duration": 2008328774
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:127"
+>>>>>>> Stashed changes
+>>>>>>> master
             }
           }
         ],
@@ -491,10 +1143,17 @@
         "type": "scenario"
       },
       {
+<<<<<<< HEAD
         "id": "title;as-a-user-i-want-to-be-able-to-search-on-imdb",
         "keyword": "Scenario",
         "line": 24,
         "name": "As a user I want to be able to search on IMDB",
+=======
+        "id": "rating;tv-episode",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "tv-episode",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
@@ -502,6 +1161,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 24181847500
             },
             "line": 6,
@@ -520,11 +1180,27 @@
             "line": 25,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:57"
+=======
+<<<<<<< Updated upstream
+              "duration": 7531907274
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:20"
+=======
+              "duration": 2012989951
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:221"
+>>>>>>> Stashed changes
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I press the search button",
             "result": {
               "status": "passed",
@@ -547,28 +1223,81 @@
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:64"
             }
+=======
+            "name": "that I have searched for a tv-episode",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+>>>>>>> master
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 5386614900
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 1926100985
+=======
+              "duration": 1957307324
+>>>>>>> Stashed changes
+=======
+              "duration": 2814637570
+>>>>>>> Stashed changes
+=======
+              "duration": 1780000131
+>>>>>>> Stashed changes
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> master
             }
           }
         ],
         "tags": [],
         "type": "scenario"
+<<<<<<< HEAD
       },
       {
         "id": "title;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb",
         "keyword": "Scenario",
         "line": 29,
         "name": "As a user i want to be able to search on companies on IMDB",
+=======
+<<<<<<< Updated upstream
+      }
+    ],
+    "id": "rating",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Rating",
+    "tags": [],
+    "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/rating.feature"
+  },
+  {
+    "description": "  As a user I want to search for titles, TV-episodes, celebs, companies and keywords\n  to get a relevant result using the english language",
+    "elements": [
+      {
+        "id": "search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb",
+=======
+      },
+      {
+        "id": "feature-name;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account",
+>>>>>>> Stashed changes
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "If my repeated password does not match the first one I entered, I will receive a warning when I try to create my account",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
@@ -576,16 +1305,34 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 27360323400
             },
             "line": 6,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 7655375580
+=======
+              "duration": 8190031424
+>>>>>>> Stashed changes
+=======
+              "duration": 8069129634
+>>>>>>> Stashed changes
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:20"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
             "name": "I enter the company \"Twentieth Century Fox\"",
             "result": {
               "status": "passed",
@@ -594,11 +1341,22 @@
             "line": 30,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:70"
+=======
+            "name": "i press the button sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2094671980
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:63"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I press the categories button companies",
             "result": {
               "status": "passed",
@@ -607,11 +1365,34 @@
             "line": 31,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:77"
+=======
+            "name": "press the button Create a New Account",
+            "result": {
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 2009962866
+=======
+              "duration": 2010298157
+>>>>>>> Stashed changes
+=======
+              "duration": 2013281379
+>>>>>>> Stashed changes
+=======
+              "duration": 2005588369
+>>>>>>> Stashed changes
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:71"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I press the search button",
             "result": {
               "status": "passed",
@@ -633,10 +1414,33 @@
             "line": 33,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:46"
+=======
+            "name": "I enter my name",
+            "result": {
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 2510002125
+=======
+              "duration": 2008110696
+>>>>>>> Stashed changes
+=======
+              "duration": 2516839204
+>>>>>>> Stashed changes
+=======
+              "duration": 2138884332
+>>>>>>> Stashed changes
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:79"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
             "keyword": "After ",
             "result": {
               "status": "passed",
@@ -668,10 +1472,34 @@
             "line": 6,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+=======
+            "keyword": "And ",
+            "name": "I enter a email adress",
+            "result": {
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 1792657355
+=======
+              "duration": 2148939841
+>>>>>>> Stashed changes
+=======
+              "duration": 1716881756
+>>>>>>> Stashed changes
+=======
+              "duration": 2088678772
+>>>>>>> Stashed changes
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:91"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
             "keyword": "When ",
             "name": "I enter the name of \"Sylvester Stallone\"",
             "result": {
@@ -681,11 +1509,23 @@
             "line": 36,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:85"
+=======
+            "keyword": "And ",
+            "name": "I enter my password",
+            "result": {
+              "status": "passed",
+              "duration": 2136419049
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:162"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I press the categories button celebrities",
             "result": {
               "status": "passed",
@@ -694,11 +1534,22 @@
             "line": 37,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:92"
+=======
+            "name": "I reenter a not matching password",
+            "result": {
+              "status": "passed",
+              "duration": 2032580530
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:231"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I press the search button",
             "result": {
               "status": "passed",
@@ -707,11 +1558,22 @@
             "line": 38,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:39"
+=======
+            "name": "I press Create your IMDb account",
+            "result": {
+              "status": "passed",
+              "duration": 2012214510
+            },
+            "line": 47,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:127"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
             "name": "I should see the search results based on the name \"Sylvester Stallone\"",
             "result": {
               "status": "passed",
@@ -720,6 +1582,28 @@
             "line": 39,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:100"
+=======
+            "name": "I should get a warning box",
+            "result": {
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 2215478023
+=======
+              "duration": 2121919838
+>>>>>>> Stashed changes
+=======
+              "duration": 2194840510
+>>>>>>> Stashed changes
+=======
+              "duration": 2011392350
+>>>>>>> Stashed changes
+            },
+            "line": 48,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:221"
+>>>>>>> master
             }
           },
           {
@@ -727,27 +1611,63 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 5808997799
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+              "duration": 2877330270
+=======
+            "keyword": "And ",
+            "name": "I type in a faulty password",
+=======
+              "duration": 1797150729
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> master
             }
           }
         ],
         "tags": [],
         "type": "scenario"
+<<<<<<< HEAD
       },
       {
         "id": "title;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb",
         "keyword": "Scenario",
         "line": 41,
         "name": "As a user i want to be able to search on tv-episodes on IMDB",
+=======
+      }
+    ],
+    "id": "feature-name",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Feature name",
+    "tags": [],
+    "uri": "/Users/ida_ac/Desktop/IMDB/features/konto.feature"
+  },
+  {
+    "description": "  As a user I want to search for titles, TV-episodes, celebs, companies and keywords\n  to get a relevant result using the english language",
+    "elements": [
+      {
+        "id": ";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "As a user i want to be able to search on titles on IMDB",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "name": "That I’m on the platform IMDb.com",
+<<<<<<< HEAD
             "result": {
               "status": "passed",
               "duration": 26601256500
@@ -755,11 +1675,35 @@
             "line": 6,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:17"
+=======
+>>>>>>> Stashed changes
+            "result": {
+              "status": "passed",
+<<<<<<< HEAD
+              "duration": 10155770957
+=======
+              "duration": 8734236787
+>>>>>>> master
+>>>>>>> master
+            },
+            "line": 10,
+            "match": {
+<<<<<<< HEAD
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:20"
+=======
+<<<<<<< HEAD
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:92"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
             "name": "I enter the episode \"The Iron Throne\"",
             "result": {
               "status": "passed",
@@ -768,11 +1712,32 @@
             "line": 42,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:111"
+=======
+<<<<<<< HEAD
+            "name": "I click the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 4681743800
+            },
+            "line": 11,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:100"
+=======
+            "name": "I enter the title \"Lion King\"",
+            "result": {
+              "status": "passed",
+              "duration": 2006592989
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:27"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "name": "I press the categories button tv-episodes",
             "result": {
               "status": "passed",
@@ -781,10 +1746,21 @@
             "line": 43,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:118"
+=======
+            "name": "I press the categories button titles",
+            "result": {
+              "status": "passed",
+              "duration": 2492668644
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:34"
+>>>>>>> master
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
             "keyword": "And ",
             "name": "I press the search button",
             "result": {
@@ -794,11 +1770,28 @@
             "line": 44,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:39"
+=======
+            "keyword": "When ",
+            "name": "I press the search button",
+            "result": {
+              "status": "passed",
+              "duration": 1761171593
+            },
+            "line": 12,
+            "match": {
+<<<<<<< HEAD
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:42"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:39"
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
             "name": "I should see the search results based on the title \"The Iron Throne\"",
             "result": {
               "status": "passed",
@@ -807,6 +1800,31 @@
             "line": 45,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\step-definitions\\step-definitions.js:46"
+=======
+<<<<<<< HEAD
+            "name": "i should have a list",
+            "result": {
+              "status": "passed",
+              "duration": 2113615700
+            },
+            "line": 12,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:113"
+=======
+            "name": "I should see the search results based on the title \"Lion King\"",
+            "result": {
+              "status": "passed",
+              "duration": 2146914544
+            },
+            "line": 13,
+            "match": {
+<<<<<<< HEAD
+              "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:49"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:46"
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
@@ -814,11 +1832,43 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 4808979700
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\maxfa\\Desktop\\testverktyg\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+              "duration": 1884574513
+>>>>>>> Stashed changes
+=======
+              "duration": 1857834039
+>>>>>>> Stashed changes
+=======
+              "duration": 1847947686
+>>>>>>> Stashed changes
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+=======
+<<<<<<< HEAD
+              "duration": 1166591500
+            },
+            "hidden": true,
+            "match": {
+              "location": "projekt\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 1867777297
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
             }
           }
         ],
@@ -826,6 +1876,7 @@
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
     "id": "title",
     "keyword": "Feature",
     "line": 1,
@@ -834,3 +1885,32 @@
     "uri": "C:/Users/maxfa/Desktop/testverktyg/IMDB/features/search-IMDB.feature"
   }
 ]
+=======
+<<<<<<< HEAD
+    "id": "search",
+=======
+<<<<<<< HEAD
+    "id": "as-a-user-i-want-to-manage-my-account",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a user i want to manage my account",
+    "tags": [],
+    "uri": "C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\features\\account-settings.feature"
+=======
+    "id": "",
+>>>>>>> master
+    "keyword": "Feature",
+    "line": 1,
+    "name": "search",
+    "tags": [],
+<<<<<<< HEAD
+    "uri": "/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature"
+=======
+    "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature"
+>>>>>>> master
+>>>>>>> master
+  }
+]
+=======
+>>>>>>> master
+>>>>>>> master
