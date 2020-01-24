@@ -182,7 +182,7 @@ module.exports = function () {
     assert.strictEqual(logInTextInLabel, name, 'Not logged in with the name "' + name + '"');
     await sleep(sleepTime)
   });
-*/
+
 
   
   this.When(/^I enter an unused email adress$/, async function () {
