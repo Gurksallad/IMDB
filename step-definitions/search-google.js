@@ -73,8 +73,8 @@ module.exports = function () {
   this.Given(/^i have clicked create a new list$/, async function () {
 
     let profileBar
-    await driver.wait(until.elementLocated(By.css('.navbar__user')))
-    profileBar = await $(".navbar__user")
+    await driver.wait(until.elementLocated(By.css('.navbar__user-menu-toggle__name')))
+    profileBar = await $(".navbar__user-menu-toggle__name")
     profileBar.click()
     await driver.wait(until.elementLocated(By.linkText('Your lists')))
     let button = await driver.findElement(by.linkText('Your lists')) //om du vill få tag på element med en text inuti
@@ -100,13 +100,23 @@ module.exports = function () {
   this.When(/^I click the Create button$/, async function () {
     let button = await driver.findElement(by.css('.list-create-button'))
     button.click()
-    await driver.wait(until.elementLocated(By.css('.lister-new-instructions')))
+    await driver.wait(until.elementLocated(By.css('.list-edit-done')))
     button = await driver.findElement(by.css('.list-edit-done'))
+    await sleep(500)
     button.click()
     await driver.wait(until.elementLocated(By.linkText('See all lists by you')))
-    button = await driver.findElement(by.linkText('See all lists by you'))
-    button.click()
+    let redirection = await driver.findElement(by.linkText('See all lists by you'))
+    assert.instanceOf(redirection, redirection.constructor, "Expected to be redirected")
 
+  });
+
+  this.Then(/^i should have a list$/, async function () {
+    let link = await driver.findElement(by.linkText('See all lists by you'))
+    link.click()
+    await driver.wait(until.elementLocated(By.linkText('Min egen lista')))
+    let createdList = await driver.findElement(by.linkText('Min egen lista'))
+    assert.instanceOf(createdList, createdList.constructor, "Expected to find new list in lists of lists")
+    
   });
 }
 

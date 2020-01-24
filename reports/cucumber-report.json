@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 [
   {
     "elements": [
@@ -14,7 +13,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 11136882400
+              "duration": 6985890100
             },
             "line": 5,
             "match": {
@@ -27,7 +26,7 @@
             "name": "that i am logged in",
             "result": {
               "status": "passed",
-              "duration": 7941685599
+              "duration": 5140326800
             },
             "line": 8,
             "match": {
@@ -40,7 +39,7 @@
             "name": "i have clicked create a new list",
             "result": {
               "status": "passed",
-              "duration": 7175941300
+              "duration": 4876093601
             },
             "line": 9,
             "match": {
@@ -53,7 +52,7 @@
             "name": "i have given my list a name",
             "result": {
               "status": "passed",
-              "duration": 1002993101
+              "duration": 1003425700
             },
             "line": 10,
             "match": {
@@ -65,9 +64,8 @@
             "keyword": "When ",
             "name": "I click the Create button",
             "result": {
-              "status": "failed",
-              "duration": 474644089000,
-              "error_message": "WebDriverError: Failed to interpret value as array\n    at Object.throwDecodedError (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\error.js:497:15)\n    at parseHttpResponse (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\http.js:519:13)\n    at C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.findElements(By(link text, See all lists by you))\n    at thenableWebDriverProxy.schedule (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.findElements (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1048:22)\n    at C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\until.js:243:23\n    at C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\webdriver.js:938:14\n    at TaskQueue.execute_ (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\promise.js:2982:25\n    at C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\nFrom: Task: <anonymous>\n    at Timeout.pollCondition [as _onTimeout] (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\promise.js:2203:19)\n    at listOnTimeout (internal/timers.js:531:17)\n    at processTimers (internal/timers.js:475:7)\nFrom: Task: Waiting for element to be located By(link text, See all lists by you)\n    at scheduleWait (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\promise.js:2196:20)\n    at ControlFlow.wait (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\promise.js:2525:12)\n    at thenableWebDriverProxy.wait (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at createWorld.<anonymous> (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\step-definitions\\search-google.js:106:18)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+              "status": "passed",
+              "duration": 4681743800
             },
             "line": 11,
             "match": {
@@ -79,17 +77,20 @@
             "keyword": "Then ",
             "name": "i should have a list",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2113615700
             },
-            "line": 12
+            "line": 12,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:113"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "failed",
-              "duration": 672544099,
-              "error_message": "WebDriverError: Failed to decode response from marionette\n    at Object.throwDecodedError (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\error.js:497:15)\n    at parseHttpResponse (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\http.js:519:13)\n    at C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at thenableWebDriverProxy.schedule (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.takeScreenshot (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1083:17)\n    at createWorld.<anonymous> (C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:253:27)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "passed",
+              "duration": 1166591500
             },
             "hidden": true,
             "match": {
@@ -109,5 +110,3 @@
     "uri": "C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\features\\account-settings.feature"
   }
 ]
-=======
->>>>>>> Stashed changes
