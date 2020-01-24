@@ -387,6 +387,42 @@ module.exports = function () {
   //scenaio watchlist add/remove end
 
 
+  this.Given(/^click on account settings$/, async function () {
+    let button = await driver.findElement(by.css(('#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div._3cMNCrSVkxQhCkVs1JLIib.navbar__user.sc-kgoBCf.iTQkiJ > div > label.ipc-icon-button.navbar__flyout__icon-on-mobile.imdb-header__account-toggle--logged-in.imdb-header__accountmenu-toggle.ipc-icon-button--baseAlt.ipc-icon-button--onBase')));
+    button.click();
+    await driver.wait(until.elementLocated(by.css('#navUserMenu-contents > ul > a:nth-child(7)')));
+    button = await $('#navUserMenu-contents > ul > a:nth-child(7)')
+    button.click();
+  });
+
+  this.Given(/^click on content settings$/, async function () {
+    let button = await driver.findElement(by.linkText(("Content settings")));
+    button.click();
+  });
+
+  this.Given(/^i change the title pages$/, async function () {
+    let displayButton = await driver.findElement(by.name(("ttco")));
+    displayButton.click();
+    countryButton = await driver.findElement(by.value("SE"));
+    countryButton.click
+  });
+
+  this.Given(/^i change the name pages$/, async function () {
+
+  });
+
+  this.Given(/^i change the contributors$/, async function () {
+
+  });
+
+  this.When(/^i click submit$/, async function () {
+
+  });
+
+  this.Then(/^my settings should be saved$/, async function () {
+
+  });
+
   this.When(/^I click the sign in button$/, async function () {
     let signInButton = await driver.findElement(by.linkText("Sign In"));
     signInButton.click()

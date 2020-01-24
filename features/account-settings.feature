@@ -20,6 +20,16 @@
         Then the watchlist should be empty
 
 
+    Scenario: As a user I want to be able to edit my content settings
+        Given that i am logged in
+        And click on account settings
+        And click on content settings
+        And i change the title pages
+        And i change the name pages
+        And i change the contributors
+        When i click submit
+        Then my settings should be saved
+
     Scenario: As a user when I try to use a registered e-mail I should get an error message
         When I click the sign in button
         And I click the create a new account button
