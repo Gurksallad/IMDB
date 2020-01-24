@@ -100,13 +100,24 @@ module.exports = function () {
   this.When(/^I click the Create button$/, async function () {
     let button = await driver.findElement(by.css('.list-create-button'))
     button.click()
-    await driver.wait(until.elementLocated(By.css('.lister-new-instructions')))
-    button = await driver.findElement(by.css('.list-edit-done'))
+    await driver.wait(until.elementLocated(By.css('.list-edit-done')))
+    button = await $('.list-edit-done')
+    await sleep(1000)
     button.click()
-    await driver.wait(until.elementLocated(By.linkText('See all lists by you')))
-    button = await driver.findElement(by.linkText('See all lists by you'))
-    button.click()
+    await driver.wait(until.elementLocated(By.css('.listo')))
+    let endScreen = $('.listo')
+    assert.instanceOf(endScreen, endScreen.constructor, "Expected to land on an instance of imdb where my list is")
 
   });
+
+  this.Then(/^i should have a list$/, async function () {
+    button = await driver.findElement(by.linkText('See all lists by you'))
+    button.click()
+    await driver.wait(until.elementLocated(By.css('.h1')))
+    myListCheck = $('list-name').getText()
+    assert(myListCheck.contains('Min egen lista'))
+  });
+
+  
 }
 
