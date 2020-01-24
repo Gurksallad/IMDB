@@ -1,12 +1,24 @@
+<<<<<<< HEAD
 [
   {
     "description": "As a user i want to create a account, by entering in my namne, a email and a password\nAs a user I want to be able to log in to the account that i just created  ",
     "elements": [
       {
+<<<<<<< HEAD
         "id": "account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
+=======
+<<<<<<< HEAD
+        "id": "as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "As a user I want to create a list",
+=======
+        "id": ";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account",
+>>>>>>> master
         "keyword": "Scenario",
         "line": 12,
         "name": "I type in an unused email adress and a password i should be able to create an account",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
@@ -14,6 +26,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -27,14 +40,40 @@
 =======
               "duration": 9376841294
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+              "duration": 6985890100
+=======
+              "duration": 7935537487
+>>>>>>> master
+>>>>>>> master
             },
             "line": 8,
             "match": {
+<<<<<<< HEAD
               "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:20"
+=======
+<<<<<<< HEAD
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:45"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
+            "keyword": "Given ",
+            "name": "that i am logged in",
+            "result": {
+              "status": "passed",
+              "duration": 5140326800
+            },
+            "line": 8,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:53"
+=======
             "keyword": "When ",
             "name": "i press the button sign in",
             "result": {
@@ -44,7 +83,12 @@
             },
             "line": 13,
             "match": {
+<<<<<<< HEAD
               "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:63"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:60"
+>>>>>>> master
+>>>>>>> master
             }
 =======
               "status": "undefined"
@@ -55,6 +99,16 @@
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
+            "name": "i have clicked create a new list",
+            "result": {
+              "status": "passed",
+              "duration": 4876093601
+            },
+            "line": 9,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:73"
+=======
             "name": "press the button Create a New Account",
             "result": {
 <<<<<<< Updated upstream
@@ -151,13 +205,24 @@
             },
             "line": 18,
             "match": {
+<<<<<<< HEAD
               "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:118"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:111"
+>>>>>>> master
+>>>>>>> master
             }
 >>>>>>> Stashed changes
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
+            "name": "i have given my list a name",
+            "result": {
+              "status": "passed",
+              "duration": 1003425700
+=======
             "name": "I press Create your IMDb account",
             "result": {
 <<<<<<< Updated upstream
@@ -962,16 +1027,39 @@
 >>>>>>> Stashed changes
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 10155770957
+=======
+              "duration": 8734236787
+>>>>>>> master
+>>>>>>> master
             },
-            "line": 7,
+            "line": 10,
             "match": {
+<<<<<<< HEAD
               "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:20"
+=======
+<<<<<<< HEAD
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:92"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:17"
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
+            "name": "I click the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 4681743800
+            },
+            "line": 11,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:100"
+=======
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
@@ -1005,12 +1093,27 @@
             },
             "line": 12,
             "match": {
+<<<<<<< HEAD
               "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:42"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:39"
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
+            "name": "i should have a list",
+            "result": {
+              "status": "passed",
+              "duration": 2113615700
+            },
+            "line": 12,
+            "match": {
+              "location": "projekt\\IMDB\\step-definitions\\search-google.js:113"
+=======
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
@@ -1018,7 +1121,12 @@
             },
             "line": 13,
             "match": {
+<<<<<<< HEAD
               "location": "/Users/ida_ac/Desktop/IMDB/step-definitions/step-definitions.js:49"
+=======
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/step-definitions/step-definitions.js:46"
+>>>>>>> master
+>>>>>>> master
             }
           },
           {
@@ -1026,6 +1134,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
               "duration": 1884574513
 >>>>>>> Stashed changes
@@ -1039,6 +1148,21 @@
             "hidden": true,
             "match": {
               "location": "/Users/ida_ac/Desktop/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+=======
+<<<<<<< HEAD
+              "duration": 1166591500
+            },
+            "hidden": true,
+            "match": {
+              "location": "projekt\\IMDB\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 1867777297
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/IMDB/node_modules/selenium-cucumber-js/runtime/world.js:250"
+>>>>>>> master
+>>>>>>> master
             }
           }
         ],
@@ -1046,11 +1170,30 @@
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
     "id": "search",
+=======
+<<<<<<< HEAD
+    "id": "as-a-user-i-want-to-manage-my-account",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a user i want to manage my account",
+    "tags": [],
+    "uri": "C:\\Users\\jitma\\Desktop\\pågående projekt\\IMDB\\features\\account-settings.feature"
+=======
+    "id": "",
+>>>>>>> master
     "keyword": "Feature",
     "line": 1,
     "name": "search",
     "tags": [],
+<<<<<<< HEAD
     "uri": "/Users/ida_ac/Desktop/IMDB/features/search-IMDB.feature"
+=======
+    "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature"
+>>>>>>> master
+>>>>>>> master
   }
 ]
+=======
+>>>>>>> master

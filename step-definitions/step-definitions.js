@@ -57,8 +57,75 @@ module.exports = function () {
     await sleep(sleepTime);
   });
 
+  this.When(/^I enter "([^"]*)" in the searchfield$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
 
-  
+  this.Then(/^I should see results based on my search$/, async function () {
+    let findResultOfSearch = await $('#findSubHeader')
+    assert.instanceOf(findResultOfSearch, findResultOfSearch.constructor, "Expected a web element")
+    await sleep(sleepTime)
+  });
+
+  this.When(/^I enter the company "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button companies$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let companiesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(5)')
+    await companiesButton.click();
+  });
+
+  this.When(/^I enter the name of "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button celebrities$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let titlesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(4)')
+    await titlesButton.click();
+  });
+
+  this.Then(/^I should see the search results based on the name "([^"]*)"$/, async function (name) {
+    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
+    // now the search has finisehd
+    let results = await $('.findResult');
+    assert(results, 'Could not find any results');
+    let firstResult = results[0];
+    let resultText = await firstResult.getText();
+    assert.include(resultText, name, 'Could not find the phrase ' + name + ' in the first search result.');
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I enter the episode "([^"]*)"$/, async function (searchText) {
+    searchField = await $('#suggestion-search');
+    assert(searchField, 'Can not find the search field on the page');
+    searchField.sendKeys(searchText);
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I press the categories button tv\-episodes$/, async function () {
+    let categoriesButton = await $('.search-category-selector')
+    await categoriesButton.click();
+    await sleep(sleepTime);
+    let episodesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(3)')
+    await episodesButton.click();
+  });
+
 
   this.When(/^i press the button sign in$/, async function () {
     let signIn = await driver.findElement(by.linkText("Sign In"))
@@ -147,6 +214,25 @@ module.exports = function () {
     let signInButton = await driver.findElement(by.linkText("Sign in with IMDb"))
     signInButton.click()
     assert(signInButton, "can not find sign in with IMDb button");
+  //scenario watchlist add/remove start
+  this.Given(/^that i am logged in$/, async function () {
+    let button = await $('.imdb-header__signin-text')
+    button.click()
+    await driver.wait(until.elementLocated(By.css('.imdb-logo')))
+    button = await $('.imdb-logo')
+    button.click()
+    await driver.wait(until.elementLocated(By.name('email')))
+    driver.findElement(by.name("email")).click();
+    driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
+    driver.findElement(by.name("password")).click()
+    driver.findElement(by.name("password")).sendKeys('jheamobps5is')
+    await driver.wait(until.elementLocated(By.id("signInSubmit")))
+    button = driver.findElement(by.id("signInSubmit"))
+    button.click()
+    await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
+    let loggedInUserScreen = await $('.ipc-icon--account-circle')
+    assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
+  });
 
       await sleep(sleepTime)
   });
@@ -239,6 +325,129 @@ module.exports = function () {
 
 
 
+
+  this.When(/^i click on the watchlist$/, async function () {
+    let watchListButton = await $('.sc-kpOJdX');
+    watchListButton.click();
+    await sleep(sleepTime);
+    await driver.wait(until.elementLocated(By.css('.empty-react-watchlist')));
+    let imInMyWatchList = await $('.empty-react-watchlist');
+    assert.instanceOf(imInMyWatchList, imInMyWatchList.constructor, "Expected a web element");
+    await sleep(sleepTime);
+  });
+
+  this.When(/^find a movie to add$/, async function () {  
+    await driver.wait(until.elementLocated(By.linkText('Browse Popular Movies')));
+    let findMovieToAdd = driver.findElement(By.linkText('Browse Popular Movies'));
+    findMovieToAdd.click();
+    await sleep(sleepTime);
+    await driver.wait(until.elementLocated(By.css('.chart')))
+    let findMovieToList = driver.findElement(by.linkText('The Shawshank Redemption'));
+    findMovieToList.click();
+    await sleep(sleepTime);
+    await driver.wait(until.elementLocated(By.css('.uc-add-wl-button')));
+    let checkAddedMovie = await $('.uc-add-wl-button');
+    assert.instanceOf(checkAddedMovie, checkAddedMovie.constructor, "Expected a web element");
+    await sleep(sleepTime);
+  });
+
+  this.When(/^add a to watchlist$/, async function () {
+    let addMovieToList = driver.findElement(by.css('.uc-add-wl-button'));
+    addMovieToList.click();
+    await sleep(sleepTime);
+
+    await driver.wait(until.elementLocated(By.css('.sc-kpOJdX')));
+    let watchListButton = await $('.sc-kpOJdX');
+    watchListButton.click();
+    await sleep(sleepTime);
+    await driver.wait(until.elementLocated(By.css('.lister-item')));
+    let checkMyWatchList = await $('.lister-item');
+    assert.instanceOf(checkMyWatchList, checkMyWatchList.constructor, "Expected a web element");
+    await sleep(sleepTime);
+  });
+
+  this.When(/^remove a movie from my watchlist$/, async function () {  
+    await driver.wait(until.elementLocated(By.css('.button')));
+    let removeMovieFromList = driver.findElement(By.css('.wl-ribbon'));
+    removeMovieFromList.click();
+    await sleep(sleepTime);
+    await driver.wait(until.elementLocated(By.css('.sc-kpOJdX')));
+    let watchListButton = await $('.sc-kpOJdX');
+    watchListButton.click();
+    await sleep(sleepTime);
+    });
+
+  this.Then(/^the watchlist should be empty$/, async function () {     
+    await driver.wait(until.elementLocated(By.css('.empty-react-watchlist')));
+    let imInMyWatchList = await $('.empty-react-watchlist');
+    assert.instanceOf(imInMyWatchList, imInMyWatchList.constructor, "Expected a web element");
+  });
+ 
+  this.Then(/^I should see the search results based on the title "([^"]*)"$/, async function (title) {
+    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
+    // now the search has finisehd
+    let results = await $('.findResult');
+    assert(results, 'Could not find any results');
+    let firstResult = results[0];
+    let resultText = await firstResult.getText();
+    assert.include(resultText, title, 'Could not find the phrase ' + title + ' in the first search result.');
+    await sleep(sleepTime);
+  });
+
+  //scenaio watchlist add/remove end
+
+
+  this.When(/^I click the sign in button$/, async function () {
+    let signInButton = await driver.findElement(by.linkText("Sign In"));
+    signInButton.click()
+    assert(signInButton, "can not find the sign in button");
+    await sleep(sleepTime)
+  });
+
+  this.When(/^I click the create a new account button$/, async function () {
+    let newAccountButton = await driver.findElement(by.linkText("Create a New Account"));
+    newAccountButton.click();
+    assert(newAccountButton, "can not find the create a new account button");
+    await sleep(sleepTime);
+  });
+
+  this.When(/^I enter my name$/, async function () {
+    let nameField = driver.findElement(by.css('#ap_customer_name'));
+    assert(nameField, 'Can not find the name field on the page');
+    nameField.sendKeys('Börje');
+  });
+
+  this.When(/^I enter my e\-mail$/, async function () {
+    let mailField = driver.findElement(by.css('#ap_email'));
+    assert(mailField, 'can not find the mail field on the page');
+    mailField.sendKeys('jens.i.t.magnusson@hotmail.com')
+  });
+
+  this.When(/^I enter a valid password$/, async function () {
+    let passField = driver.findElement(by.css('#ap_password'));
+    assert(passField, 'can not find the password field on the page');
+    passField.sendKeys('12345678');
+  });
+
+  this.When(/^I re\-enter the password$/, async function () {
+    let confirmField = driver.findElement(by.css('#ap_password_check'));
+    assert(confirmField, 'can not find the password check field on the page');
+    confirmField.sendKeys('12345678');
+  });
+
+  this.When(/^I click the create an IMDB account button$/, async function () {
+    let createAccountButton = await driver.findElement(by.css('#continue'));
+    createAccountButton.click();
+    assert(createAccountButton, "can not find the create an IMDB account button");
+    await sleep(sleepTime);
+  });
+
+  this.Then(/^I should receive an error message$/, async function () {
+    let error = await driver.wait(until.elementLocated(By.css('#auth-warning-message-box > div > h4')));
+    assert(error, 'Everything went fine');
+
+    await sleep(sleepTime);
+  });
 
 }
 

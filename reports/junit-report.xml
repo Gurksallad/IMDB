@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
+<<<<<<< HEAD
     <testsuite name="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="8">
         <properties>
             <property name="URI" value="/Users/ida_ac/Desktop/IMDB/features/konto.feature">
@@ -31,6 +32,49 @@
         <testcase name="And I re-enter the same password" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
             <skipped message="">
             </skipped>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <testsuite name="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\jitma\Desktop\pågående projekt\IMDB\features\account-settings.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="6.9858901">
+        </testcase>
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="5.1403268">
+        </testcase>
+        <testcase name="And i have clicked create a new list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.876093601">
+        </testcase>
+        <testcase name="And i have given my list a name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="1.0034257">
+        </testcase>
+        <testcase name="When I click the Create button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.6817438">
+        </testcase>
+        <testcase name="Then i should have a list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="2.1136157">
+=======
+    <testsuite name=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
+=======
+    <testsuite name="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" tests="7" failures="0" skipped="0">
+>>>>>>> master
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/account-settings.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="8.5743365">
+        </testcase>
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="5.815963701">
+        </testcase>
+        <testcase name="When i click on the watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="4.603418699">
+        </testcase>
+        <testcase name="And find a movie to add" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="8.1284381">
+        </testcase>
+        <testcase name="And add a to watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="6.031975699">
+        </testcase>
+        <testcase name="And remove a movie from my watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="4.0181012">
+        </testcase>
+<<<<<<< HEAD
+        <testcase name="And I re-enter the same password &quot;bertilärbäst&quot;" classname=";i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.056421972">
+>>>>>>> master
         </testcase>
         <testcase name="And I press Create your IMDb account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account">
             <skipped message="">
@@ -318,8 +362,16 @@
         </testcase>
         <testcase name="When I press the search button" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="1.761171593">
         </testcase>
+<<<<<<< HEAD
         <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.146914544">
 >>>>>>> Stashed changes
+=======
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname=";as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.179075118">
+>>>>>>> master
+=======
+        <testcase name="Then the watchlist should be empty" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="0.0301029">
+>>>>>>> master
+>>>>>>> master
         </testcase>
     </testsuite>
 </testsuites>
