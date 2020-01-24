@@ -9,6 +9,8 @@ module.exports = function () {
   let password
   let name
   let faultyPassword
+  let myEmail
+  let continueButton
 
   /*this.Given(/^That I’m on the platform IMDb.com$/, async function () {
     await helpers.loadPage('https://imdb.com');
@@ -186,7 +188,7 @@ module.exports = function () {
 
 
   this.When(/^I press Create your IMDb account$/, async function () {
-    let continueButton = await $('#continue')
+    continueButton = await $('#continue')
     continueButton.click()
     assert(continueButton, "can not find Create your IMDb account button");
     await sleep(sleepTime)
@@ -213,7 +215,7 @@ module.exports = function () {
    
   
   this.When(/^I enter my email$/, async function () {
-    let myEmail = await $('#ap_email')
+    myEmail = await $('#ap_email')
     await myEmail.sendKeys(regEmail)
     assert.instanceOf(myEmail, myEmail.constructor, "could not enter email");
     await sleep(sleepTime)
