@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "description": "As a user i want to create a account, by entering in my namne, a email and a password\nAs a user I want to be able to log in to the account that i just created  ",
@@ -644,3 +645,5 @@
     "uri": "/Users/mariantowfik/Desktop/Cucumber/IMDB/features/search-IMDB.feature"
   }
 ]
+=======
+>>>>>>> master
