@@ -1,6 +1,7 @@
 let { $, sleep } = require('./funcs');
 
 module.exports = function () {
+  let profileBar
 
 
   this.Given(/^That I’m on the platform IMDb\.com$/, async function () {
@@ -33,7 +34,6 @@ module.exports = function () {
 
   this.Given(/^i have clicked create a new list$/, async function () {
 
-    let profileBar
     await driver.wait(until.elementLocated(By.css('.navbar__user-menu-toggle__name')))
     profileBar = await $(".navbar__user-menu-toggle__name")
     profileBar.click()
