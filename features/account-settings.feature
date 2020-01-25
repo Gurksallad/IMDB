@@ -37,5 +37,5 @@
         And I enter my e-mail
         And I enter a valid password
         And I re-enter the password
-        And I click the create an IMDB account button
+        And I press Create your IMDb account
         Then I should receive an error message

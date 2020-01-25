@@ -10,15 +10,14 @@ module.exports = function () {
   let name
   let faultyPassword
   let myEmail
-  let continueButton
+  let nameBox
+  let emailInput
+  let passwordInput
+  let reEnterPasswordInput
+  let signInButton
+  let createAccountButton
 
-  /*this.Given(/^That I’m on the platform IMDb.com$/, async function () {
-    await helpers.loadPage('https://imdb.com');
-    await sleep(sleepTime)
-    searchField = await $('#suggestion-search')
-    assert.instanceOf(searchField, searchField.constructor, "Expected a web element")
-  });
-*/
+  
 
   this.When(/^I enter the title "([^"]*)"$/, async function (searchText) {
     searchField = await $('#suggestion-search');
@@ -123,24 +122,8 @@ module.exports = function () {
   });
 
 
-  this.When(/^i press the button sign in$/, async function () {
-    let signIn = await driver.findElement(by.linkText("Sign In"))
-    signIn.click()
-    assert(signIn, "can not find sign in button");
-
-    await sleep(sleepTime)
-  });
-
-  this.When(/^press the button Create a New Account$/, async function () {
-    let createButton = await $('#signin-options > div > div:nth-child(4) > a')
-    createButton.click()
-    assert(createButton, "can not find sign in button");
-    await sleep(sleepTime)
-
-  });
-
   this.When(/^I enter my name$/, async function () {
-    let nameBox = await $('#ap_customer_name')
+     nameBox = await $('#ap_customer_name')
     name = 'hejimdbitsmeagain'
     await nameBox.sendKeys(name)
     assert.instanceOf(nameBox, nameBox.constructor, "could not enter name");
@@ -149,10 +132,8 @@ module.exports = function () {
   });
 
 
-
-
   this.When(/^I enter a email adress$/, async function () {
-    let emailInput = await $('#ap_email')
+    emailInput = await $('#ap_email')
     // We can use create multiple "emails" that go to the same gmail account
     // using the plus sign see:
     // http://www.codestore.net/store.nsf/unid/BLOG-20111201-0411
@@ -167,7 +148,7 @@ module.exports = function () {
 
 
   this.When(/^I type in a password$/, async function () {
-    let passwordInput = await $('#ap_password')
+     passwordInput = await $('#ap_password')
     password = 'bertilärbäst'
     await passwordInput.sendKeys(password)
     assert.instanceOf(passwordInput, passwordInput.constructor, "could not enter password");
@@ -179,7 +160,7 @@ module.exports = function () {
 
 
   this.When(/^I re\-enter the same password$/, async function () {
-    let reEnterPasswordInput = await $('#ap_password_check')
+    reEnterPasswordInput = await $('#ap_password_check')
     await reEnterPasswordInput.sendKeys(password)
     assert.instanceOf(reEnterPasswordInput, reEnterPasswordInput.constructor, "could not enter password");
 
@@ -188,7 +169,7 @@ module.exports = function () {
 
 
   this.When(/^I press Create your IMDb account$/, async function () {
-    continueButton = await $('#continue')
+    let continueButton = await $('#continue')
     continueButton.click()
     assert(continueButton, "can not find Create your IMDb account button");
     await sleep(sleepTime)
@@ -207,7 +188,7 @@ module.exports = function () {
 
 
   this.When(/^press the sign in with IMDb button$/, async function () {
-    let signInButton = await driver.findElement(by.linkText("Sign in with IMDb"))
+    signInButton = await driver.findElement(by.linkText("Sign in with IMDb"))
     signInButton.click()
 
     assert(signInButton, "can not find sign in with IMDb button");
@@ -228,7 +209,7 @@ module.exports = function () {
     await sleep(sleepTime)
   });
 
- this.When(/^I press the yellow sign in button$/, async function () {
+ this.When(/^I click the yellow sign in button$/, async function () {
     let yellowSignInButton = await $('#signInSubmit')
     yellowSignInButton.click()
     assert(yellowSignInButton, "can not find the yellow sign in button");
@@ -298,41 +279,7 @@ module.exports = function () {
     await sleep(sleepTime)
   });
 
-
-
-   
-  
-  
-    //scenario watchlist add/remove start
-    this.Given(/^that i am logged in$/, async function () {
-      let button = await $('.imdb-header__signin-text')
-      button.click()
-      await driver.wait(until.elementLocated(By.css('.imdb-logo')))
-      button = await $('.imdb-logo')
-      button.click()
-      await driver.wait(until.elementLocated(By.name('email')))
-      driver.findElement(by.name("email")).click();
-      driver.findElement(by.name("email")).sendKeys('jens.i.t.magnusson@hotmail.com')
-      driver.findElement(by.name("password")).click()
-      driver.findElement(by.name("password")).sendKeys('jheamobps5is')
-      await driver.wait(until.elementLocated(By.id("signInSubmit")))
-      button = driver.findElement(by.id("signInSubmit"))
-      button.click()
-      await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
-      let loggedInUserScreen = await $('.ipc-icon--account-circle')
-      assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
-   
-
-    await sleep(sleepTime)
-  });
-
-  
-
-
-
  
-
-
 
 
   this.When(/^i click on the watchlist$/, async function () {
@@ -393,13 +340,10 @@ module.exports = function () {
   });
 
 
-  //scenaio watchlist add/remove end
-
-
 
 
   this.When(/^I click the sign in button$/, async function () {
-    let signInButton = await driver.findElement(by.linkText("Sign In"));
+    signInButton = await driver.findElement(by.linkText("Sign In"));
     signInButton.click()
     assert(signInButton, "can not find the sign in button");
     await sleep(sleepTime)
@@ -431,7 +375,7 @@ module.exports = function () {
   });
 
   this.When(/^I click the create an IMDB account button$/, async function () {
-    let createAccountButton = await driver.findElement(by.id('#continue'));
+    createAccountButton = await $('#signin-options > div > div:nth-child(4) > a')
     createAccountButton.click();
     assert(createAccountButton, "can not find the create an IMDB account button");
     await sleep(sleepTime);

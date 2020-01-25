@@ -3,27 +3,6 @@ let { $, sleep } = require('./funcs');
 module.exports = function () {
   
   
-  
-  this.Given(/^that I am logged in$/, async function () {
-    let button = await $('.imdb-header__signin-text')
-    button.click()
-    await driver.wait(until.elementLocated(By.css('.imdb-logo')))
-    button = await $('.imdb-logo')
-    button.click()
-    await driver.wait(until.elementLocated(By.name('email')))
-    driver.findElement(by.name("email")).click();
-    driver.findElement(by.name("email")).sendKeys('hugonilssonmeier@gmail.com')
-    driver.findElement(by.name("password")).click()
-    driver.findElement(by.name("password")).sendKeys('King123456')
-    await driver.wait(until.elementLocated(By.id("signInSubmit")))
-    button = driver.findElement(by.id("signInSubmit"))
-    button.click()
-    await driver.wait(until.elementLocated(By.css('.ipc-icon--account-circle')))
-    let loggedInUserScreen = await $('.ipc-icon--account-circle')
-    assert.instanceOf(loggedInUserScreen, loggedInUserScreen.constructor, "Expected a web element")
-
-  });
-  
   this.Given(/^I have clicked on the profile in the upper right corner$/, async function () {
     await driver.wait(until.elementLocated(By.css('.navbar__user')))
     let button = await $('.navbar__user')
