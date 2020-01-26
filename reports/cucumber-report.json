@@ -13,7 +13,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 6440697000
+              "duration": 8514459500
             },
             "line": 5,
             "match": {
@@ -26,7 +26,7 @@
             "name": "that i am logged in",
             "result": {
               "status": "passed",
-              "duration": 4260348000
+              "duration": 6083768901
             },
             "line": 8,
             "match": {
@@ -39,7 +39,7 @@
             "name": "i have clicked create a new list",
             "result": {
               "status": "passed",
-              "duration": 4486502701
+              "duration": 6996551900
             },
             "line": 9,
             "match": {
@@ -52,7 +52,7 @@
             "name": "i have given my list a name",
             "result": {
               "status": "passed",
-              "duration": 1001521599
+              "duration": 1001361300
             },
             "line": 10,
             "match": {
@@ -65,7 +65,7 @@
             "name": "I click the Create button",
             "result": {
               "status": "passed",
-              "duration": 4152560900
+              "duration": 4270836400
             },
             "line": 11,
             "match": {
@@ -78,7 +78,7 @@
             "name": "i should have a list",
             "result": {
               "status": "passed",
-              "duration": 2057997901
+              "duration": 1990490200
             },
             "line": 12,
             "match": {
@@ -90,7 +90,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1165328899
+              "duration": 1016501700
             },
             "hidden": true,
             "match": {
@@ -113,7 +113,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 6971959700
+              "duration": 7886960399
             },
             "line": 5,
             "match": {
@@ -126,7 +126,7 @@
             "name": "that i am logged in",
             "result": {
               "status": "passed",
-              "duration": 4100122900
+              "duration": 5984822099
             },
             "line": 15,
             "match": {
@@ -139,11 +139,11 @@
             "name": "i click on the watchlist",
             "result": {
               "status": "passed",
-              "duration": 6553416299
+              "duration": 5779070300
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:287"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:288"
             }
           },
           {
@@ -152,11 +152,11 @@
             "name": "find a movie to add",
             "result": {
               "status": "passed",
-              "duration": 11113706600
+              "duration": 12052705500
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:298"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:299"
             }
           },
           {
@@ -165,11 +165,11 @@
             "name": "add a to watchlist",
             "result": {
               "status": "passed",
-              "duration": 8909913300
+              "duration": 8916222700
             },
             "line": 18,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:315"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:316"
             }
           },
           {
@@ -178,11 +178,11 @@
             "name": "remove a movie from my watchlist",
             "result": {
               "status": "passed",
-              "duration": 4252255999
+              "duration": 4345438999
             },
             "line": 19,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:332"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:333"
             }
           },
           {
@@ -191,11 +191,11 @@
             "name": "the watchlist should be empty",
             "result": {
               "status": "passed",
-              "duration": 2223847501
+              "duration": 2290146300
             },
             "line": 20,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:345"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:346"
             }
           },
           {
@@ -203,7 +203,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1325009401
+              "duration": 1312087400
             },
             "hidden": true,
             "match": {
@@ -226,7 +226,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 7512902300
+              "duration": 7151075799
             },
             "line": 5,
             "match": {
@@ -239,7 +239,7 @@
             "name": "that i am logged in",
             "result": {
               "status": "passed",
-              "duration": 5475652501
+              "duration": 4141237600
             },
             "line": 24,
             "match": {
@@ -314,7 +314,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1087839901
+              "duration": 979529300
             },
             "hidden": true,
             "match": {
@@ -337,7 +337,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 8730197800
+              "duration": 6652181400
             },
             "line": 5,
             "match": {
@@ -350,11 +350,11 @@
             "name": "I click the sign in button",
             "result": {
               "status": "passed",
-              "duration": 2122257300
+              "duration": 2099733400
             },
             "line": 34,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:354"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:355"
             }
           },
           {
@@ -363,11 +363,11 @@
             "name": "I click the create a new account button",
             "result": {
               "status": "passed",
-              "duration": 2092374600
+              "duration": 2109548800
             },
             "line": 35,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:361"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:362"
             }
           },
           {
@@ -376,11 +376,11 @@
             "name": "I enter my name",
             "result": {
               "status": "passed",
-              "duration": 2096277001
+              "duration": 2058053700
             },
             "line": 36,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:127"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:128"
             }
           },
           {
@@ -389,11 +389,11 @@
             "name": "I enter my e-mail",
             "result": {
               "status": "passed",
-              "duration": 470899
+              "duration": 2480199
             },
             "line": 37,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:368"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:369"
             }
           },
           {
@@ -402,11 +402,11 @@
             "name": "I enter a valid password",
             "result": {
               "status": "passed",
-              "duration": 506000
+              "duration": 951701
             },
             "line": 38,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:374"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:375"
             }
           },
           {
@@ -415,11 +415,11 @@
             "name": "I re-enter the password",
             "result": {
               "status": "passed",
-              "duration": 607900
+              "duration": 919700
             },
             "line": 39,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:380"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:381"
             }
           },
           {
@@ -428,11 +428,11 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
-              "duration": 2016374400
+              "duration": 2011504700
             },
             "line": 40,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:173"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:174"
             }
           },
           {
@@ -441,11 +441,11 @@
             "name": "I should receive an error message",
             "result": {
               "status": "passed",
-              "duration": 2020023400
+              "duration": 2005253599
             },
             "line": 41,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:393"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:394"
             }
           },
           {
@@ -453,7 +453,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1063147200
+              "duration": 1005389099
             },
             "hidden": true,
             "match": {
@@ -487,7 +487,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 5942014699
+              "duration": 7676008500
             },
             "line": 8,
             "match": {
@@ -500,11 +500,11 @@
             "name": "I click the sign in button",
             "result": {
               "status": "passed",
-              "duration": 2124942301
+              "duration": 2113292000
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:354"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:355"
             }
           },
           {
@@ -513,11 +513,11 @@
             "name": "I click the create an IMDB account button",
             "result": {
               "status": "passed",
-              "duration": 2006757700
+              "duration": 2055408700
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:386"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:387"
             }
           },
           {
@@ -526,11 +526,11 @@
             "name": "I enter my name",
             "result": {
               "status": "passed",
-              "duration": 2046843300
+              "duration": 2060721900
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:127"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:128"
             }
           },
           {
@@ -539,11 +539,11 @@
             "name": "I enter a email adress",
             "result": {
               "status": "passed",
-              "duration": 2109247400
+              "duration": 2096709901
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:137"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:138"
             }
           },
           {
@@ -552,11 +552,11 @@
             "name": "I type in a password",
             "result": {
               "status": "passed",
-              "duration": 2043259699
+              "duration": 2054921599
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:152"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:153"
             }
           },
           {
@@ -565,11 +565,11 @@
             "name": "I re-enter the same password",
             "result": {
               "status": "passed",
-              "duration": 2056468101
+              "duration": 2071246100
             },
             "line": 18,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:164"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:165"
             }
           },
           {
@@ -578,11 +578,11 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
-              "duration": 2004667700
+              "duration": 2017020199
             },
             "line": 19,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:173"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:174"
             }
           },
           {
@@ -591,11 +591,11 @@
             "name": "I should be automatically logged in to my account",
             "result": {
               "status": "passed",
-              "duration": 3125518100
+              "duration": 3856143701
             },
             "line": 20,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:180"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:181"
             }
           },
           {
@@ -603,7 +603,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1092290499
+              "duration": 1072839999
             },
             "hidden": true,
             "match": {
@@ -626,7 +626,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 8116951900
+              "duration": 7888915400
             },
             "line": 8,
             "match": {
@@ -639,11 +639,11 @@
             "name": "I click the sign in button",
             "result": {
               "status": "passed",
-              "duration": 2120563900
+              "duration": 2129082900
             },
             "line": 23,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:354"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:355"
             }
           },
           {
@@ -652,11 +652,11 @@
             "name": "press the sign in with IMDb button",
             "result": {
               "status": "passed",
-              "duration": 122874200
+              "duration": 127120499
             },
             "line": 24,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:192"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:193"
             }
           },
           {
@@ -665,11 +665,11 @@
             "name": "I enter my email",
             "result": {
               "status": "passed",
-              "duration": 2621134099
+              "duration": 2533629099
             },
             "line": 25,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:200"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:201"
             }
           },
           {
@@ -678,11 +678,11 @@
             "name": "I enter my password",
             "result": {
               "status": "passed",
-              "duration": 2035295699
+              "duration": 2053227100
             },
             "line": 26,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:207"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:208"
             }
           },
           {
@@ -691,11 +691,11 @@
             "name": "I click the yellow sign in button",
             "result": {
               "status": "passed",
-              "duration": 2006767401
+              "duration": 2013917599
             },
             "line": 27,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:214"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:215"
             }
           },
           {
@@ -704,11 +704,11 @@
             "name": "I should be logged in to my account",
             "result": {
               "status": "passed",
-              "duration": 3698195500
+              "duration": 3420439601
             },
             "line": 28,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:221"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:222"
             }
           },
           {
@@ -716,7 +716,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1083656901
+              "duration": 966819999
             },
             "hidden": true,
             "match": {
@@ -739,7 +739,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 7811500401
+              "duration": 6386565600
             },
             "line": 8,
             "match": {
@@ -752,11 +752,11 @@
             "name": "I click the sign in button",
             "result": {
               "status": "passed",
-              "duration": 2145578400
+              "duration": 2081961600
             },
             "line": 31,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:354"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:355"
             }
           },
           {
@@ -765,11 +765,11 @@
             "name": "I click the create an IMDB account button",
             "result": {
               "status": "passed",
-              "duration": 2005990700
+              "duration": 2016241501
             },
             "line": 32,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:386"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:387"
             }
           },
           {
@@ -778,11 +778,11 @@
             "name": "I enter my name",
             "result": {
               "status": "passed",
-              "duration": 2055863400
+              "duration": 2051826800
             },
             "line": 33,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:127"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:128"
             }
           },
           {
@@ -791,11 +791,11 @@
             "name": "I enter an unused email adress",
             "result": {
               "status": "passed",
-              "duration": 2121137100
+              "duration": 2128214699
             },
             "line": 34,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:233"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:234"
             }
           },
           {
@@ -804,11 +804,11 @@
             "name": "I type in a faulty password",
             "result": {
               "status": "passed",
-              "duration": 2023323099
+              "duration": 2049230500
             },
             "line": 35,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:247"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:248"
             }
           },
           {
@@ -817,11 +817,11 @@
             "name": "I re-enter the same faulty password",
             "result": {
               "status": "passed",
-              "duration": 2032170900
+              "duration": 2065138901
             },
             "line": 36,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:257"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:258"
             }
           },
           {
@@ -830,11 +830,11 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
-              "duration": 2011933399
+              "duration": 2010050400
             },
             "line": 37,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:173"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:174"
             }
           },
           {
@@ -843,11 +843,11 @@
             "name": "I should get a warning box",
             "result": {
               "status": "passed",
-              "duration": 2005055699
+              "duration": 2008470000
             },
             "line": 38,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:266"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:267"
             }
           },
           {
@@ -855,7 +855,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1172742401
+              "duration": 970762501
             },
             "hidden": true,
             "match": {
@@ -878,7 +878,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 8072239500
+              "duration": 6383650100
             },
             "line": 8,
             "match": {
@@ -891,11 +891,11 @@
             "name": "I click the sign in button",
             "result": {
               "status": "passed",
-              "duration": 2131700600
+              "duration": 2098860399
             },
             "line": 41,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:354"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:355"
             }
           },
           {
@@ -904,11 +904,11 @@
             "name": "I click the create an IMDB account button",
             "result": {
               "status": "passed",
-              "duration": 2005347900
+              "duration": 2013358900
             },
             "line": 42,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:386"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:387"
             }
           },
           {
@@ -917,11 +917,11 @@
             "name": "I enter my name",
             "result": {
               "status": "passed",
-              "duration": 2082568300
+              "duration": 2083840600
             },
             "line": 43,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:127"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:128"
             }
           },
           {
@@ -930,11 +930,11 @@
             "name": "I enter a email adress",
             "result": {
               "status": "passed",
-              "duration": 2082212399
+              "duration": 2109220400
             },
             "line": 44,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:137"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:138"
             }
           },
           {
@@ -943,11 +943,11 @@
             "name": "I enter my password",
             "result": {
               "status": "passed",
-              "duration": 2073629900
+              "duration": 2045659999
             },
             "line": 45,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:207"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:208"
             }
           },
           {
@@ -956,11 +956,11 @@
             "name": "I reenter a not matching password",
             "result": {
               "status": "passed",
-              "duration": 2024633401
+              "duration": 2080050000
             },
             "line": 46,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:276"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:277"
             }
           },
           {
@@ -969,11 +969,11 @@
             "name": "I press Create your IMDb account",
             "result": {
               "status": "passed",
-              "duration": 2005523099
+              "duration": 2016857301
             },
             "line": 47,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:173"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:174"
             }
           },
           {
@@ -982,11 +982,11 @@
             "name": "I should get a warning box",
             "result": {
               "status": "passed",
-              "duration": 2004831900
+              "duration": 2014260099
             },
             "line": 48,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:266"
+              "location": "C:\\Users\\Max\\Desktop\\IMDB\\step-definitions\\step-definitions.js:267"
             }
           },
           {
@@ -994,7 +994,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1089385501
+              "duration": 998597400
             },
             "hidden": true,
             "match": {
@@ -1028,7 +1028,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 7462607700
+              "duration": 7508749600
             },
             "line": 6,
             "match": {
@@ -1041,7 +1041,7 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2005384200
+              "duration": 2050058199
             },
             "line": 9,
             "match": {
@@ -1054,7 +1054,7 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-              "duration": 2467516600
+              "duration": 2498950501
             },
             "line": 10,
             "match": {
@@ -1067,7 +1067,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 1936011199
+              "duration": 1956650799
             },
             "line": 11,
             "match": {
@@ -1080,7 +1080,7 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2128266501
+              "duration": 2122389101
             },
             "line": 12,
             "match": {
@@ -1092,7 +1092,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1174060600
+              "duration": 1148156201
             },
             "hidden": true,
             "match": {
@@ -1115,7 +1115,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 6471567799
+              "duration": 8033763400
             },
             "line": 6,
             "match": {
@@ -1128,7 +1128,7 @@
             "name": "I enter the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2035179800
+              "duration": 2013380200
             },
             "line": 16,
             "match": {
@@ -1141,7 +1141,7 @@
             "name": "I press the categories button titles",
             "result": {
               "status": "passed",
-              "duration": 2503703200
+              "duration": 2504521800
             },
             "line": 17,
             "match": {
@@ -1154,7 +1154,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 2170111899
+              "duration": 2282825100
             },
             "line": 18,
             "match": {
@@ -1167,7 +1167,7 @@
             "name": "I should see the search results based on the title \"Lion King\"",
             "result": {
               "status": "passed",
-              "duration": 2137058400
+              "duration": 2115919900
             },
             "line": 19,
             "match": {
@@ -1179,7 +1179,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1092426999
+              "duration": 1172805000
             },
             "hidden": true,
             "match": {
@@ -1202,7 +1202,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 8228025100
+              "duration": 7455862000
             },
             "line": 6,
             "match": {
@@ -1215,7 +1215,7 @@
             "name": "I enter \"Simpsons\" in the searchfield",
             "result": {
               "status": "passed",
-              "duration": 2154418400
+              "duration": 2003986400
             },
             "line": 22,
             "match": {
@@ -1228,7 +1228,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 1415565201
+              "duration": 1499461800
             },
             "line": 23,
             "match": {
@@ -1241,7 +1241,7 @@
             "name": "I should see results based on my search",
             "result": {
               "status": "passed",
-              "duration": 2004844199
+              "duration": 2008050900
             },
             "line": 24,
             "match": {
@@ -1253,7 +1253,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1080394601
+              "duration": 1093694300
             },
             "hidden": true,
             "match": {
@@ -1276,7 +1276,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 7048281200
+              "duration": 7534634099
             },
             "line": 6,
             "match": {
@@ -1289,7 +1289,7 @@
             "name": "I enter the company \"Twentieth Century Fox\"",
             "result": {
               "status": "passed",
-              "duration": 2007527999
+              "duration": 2012832500
             },
             "line": 27,
             "match": {
@@ -1302,7 +1302,7 @@
             "name": "I press the categories button companies",
             "result": {
               "status": "passed",
-              "duration": 2241470799
+              "duration": 2284875700
             },
             "line": 28,
             "match": {
@@ -1315,7 +1315,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 1837290700
+              "duration": 1392656799
             },
             "line": 29,
             "match": {
@@ -1328,7 +1328,7 @@
             "name": "I should see the search results based on the title \"Twentieth Century Fox\"",
             "result": {
               "status": "passed",
-              "duration": 2052295799
+              "duration": 2088394301
             },
             "line": 30,
             "match": {
@@ -1340,7 +1340,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1069829801
+              "duration": 1081986999
             },
             "hidden": true,
             "match": {
@@ -1363,7 +1363,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 6931842300
+              "duration": 6767306200
             },
             "line": 6,
             "match": {
@@ -1376,7 +1376,7 @@
             "name": "I enter the name of \"Sylvester Stallone\"",
             "result": {
               "status": "passed",
-              "duration": 2006195301
+              "duration": 2005654100
             },
             "line": 33,
             "match": {
@@ -1389,7 +1389,7 @@
             "name": "I press the categories button celebrities",
             "result": {
               "status": "passed",
-              "duration": 2472504601
+              "duration": 2501250601
             },
             "line": 34,
             "match": {
@@ -1402,7 +1402,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 1192715900
+              "duration": 1533424000
             },
             "line": 35,
             "match": {
@@ -1415,7 +1415,7 @@
             "name": "I should see the search results based on the name \"Sylvester Stallone\"",
             "result": {
               "status": "passed",
-              "duration": 2049226500
+              "duration": 2037493900
             },
             "line": 36,
             "match": {
@@ -1427,7 +1427,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1072500700
+              "duration": 1026483601
             },
             "hidden": true,
             "match": {
@@ -1450,7 +1450,7 @@
             "name": "That I’m on the platform IMDb.com",
             "result": {
               "status": "passed",
-              "duration": 7745299201
+              "duration": 7864501501
             },
             "line": 6,
             "match": {
@@ -1463,7 +1463,7 @@
             "name": "I enter the episode \"The Iron Throne\"",
             "result": {
               "status": "passed",
-              "duration": 2141562400
+              "duration": 2027113199
             },
             "line": 39,
             "match": {
@@ -1476,7 +1476,7 @@
             "name": "I press the categories button tv-episodes",
             "result": {
               "status": "passed",
-              "duration": 2461586499
+              "duration": 2476989100
             },
             "line": 40,
             "match": {
@@ -1489,7 +1489,7 @@
             "name": "I press the search button",
             "result": {
               "status": "passed",
-              "duration": 1831304700
+              "duration": 1852096800
             },
             "line": 41,
             "match": {
@@ -1502,7 +1502,7 @@
             "name": "I should see the search results based on the title \"The Iron Throne\"",
             "result": {
               "status": "passed",
-              "duration": 2070640099
+              "duration": 2060802100
             },
             "line": 42,
             "match": {
@@ -1514,7 +1514,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1192031199
+              "duration": 1107708400
             },
             "hidden": true,
             "match": {

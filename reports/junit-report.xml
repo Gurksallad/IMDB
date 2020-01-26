@@ -5,17 +5,17 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/account-settings.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="6.440697">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="8.5144595">
         </testcase>
-        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.260348">
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="6.083768901">
         </testcase>
-        <testcase name="And i have clicked create a new list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.486502701">
+        <testcase name="And i have clicked create a new list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="6.9965519">
         </testcase>
-        <testcase name="And i have given my list a name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="1.001521599">
+        <testcase name="And i have given my list a name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="1.0013613">
         </testcase>
-        <testcase name="When I click the Create button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.1525609">
+        <testcase name="When I click the Create button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="4.2708364">
         </testcase>
-        <testcase name="Then i should have a list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="2.057997901">
+        <testcase name="Then i should have a list" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-create-a-list" time="1.9904902">
         </testcase>
     </testsuite>
     <testsuite name="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" tests="7" failures="0" skipped="0">
@@ -23,19 +23,19 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/account-settings.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="6.9719597">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="7.886960399">
         </testcase>
-        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="4.1001229">
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="5.984822099">
         </testcase>
-        <testcase name="When i click on the watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="6.553416299">
+        <testcase name="When i click on the watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="5.7790703">
         </testcase>
-        <testcase name="And find a movie to add" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="11.1137066">
+        <testcase name="And find a movie to add" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="12.0527055">
         </testcase>
-        <testcase name="And add a to watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="8.9099133">
+        <testcase name="And add a to watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="8.9162227">
         </testcase>
-        <testcase name="And remove a movie from my watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="4.252255999">
+        <testcase name="And remove a movie from my watchlist" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="4.345438999">
         </testcase>
-        <testcase name="Then the watchlist should be empty" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="2.223847501">
+        <testcase name="Then the watchlist should be empty" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-add/remove-from-my-watchlist" time="2.2901463">
         </testcase>
     </testsuite>
     <testsuite name="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-edit-my-content-settings" tests="9" failures="0" skipped="7">
@@ -43,9 +43,9 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/account-settings.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-edit-my-content-settings" time="7.5129023">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-edit-my-content-settings" time="7.151075799">
         </testcase>
-        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-edit-my-content-settings" time="5.475652501">
+        <testcase name="Given that i am logged in" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-edit-my-content-settings" time="4.1412376">
         </testcase>
         <testcase name="And click on account settings" classname="as-a-user-i-want-to-manage-my-account;as-a-user-i-want-to-be-able-to-edit-my-content-settings">
             <skipped message="">
@@ -81,23 +81,23 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/account-settings.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="8.7301978">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="6.6521814">
         </testcase>
-        <testcase name="When I click the sign in button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.1222573">
+        <testcase name="When I click the sign in button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.0997334">
         </testcase>
-        <testcase name="And I click the create a new account button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.0923746">
+        <testcase name="And I click the create a new account button" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.1095488">
         </testcase>
-        <testcase name="And I enter my name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.096277001">
+        <testcase name="And I enter my name" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.0580537">
         </testcase>
-        <testcase name="And I enter my e-mail" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="0.000470899">
+        <testcase name="And I enter my e-mail" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="0.002480199">
         </testcase>
-        <testcase name="And I enter a valid password" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="0.000506">
+        <testcase name="And I enter a valid password" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="0.000951701">
         </testcase>
-        <testcase name="And I re-enter the password" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="0.0006079">
+        <testcase name="And I re-enter the password" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="0.0009197">
         </testcase>
-        <testcase name="And I press Create your IMDb account" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.0163744">
+        <testcase name="And I press Create your IMDb account" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.0115047">
         </testcase>
-        <testcase name="Then I should receive an error message" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.0200234">
+        <testcase name="Then I should receive an error message" classname="as-a-user-i-want-to-manage-my-account;as-a-user-when-i-try-to-use-a-registered-e-mail-i-should-get-an-error-message" time="2.005253599">
         </testcase>
     </testsuite>
     <testsuite name="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" tests="9" failures="0" skipped="0">
@@ -105,23 +105,23 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/konto.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="5.942014699">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="7.6760085">
         </testcase>
-        <testcase name="When I click the sign in button" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.124942301">
+        <testcase name="When I click the sign in button" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.113292">
         </testcase>
-        <testcase name="And I click the create an IMDB account button" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0067577">
+        <testcase name="And I click the create an IMDB account button" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0554087">
         </testcase>
-        <testcase name="And I enter my name" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0468433">
+        <testcase name="And I enter my name" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0607219">
         </testcase>
-        <testcase name="And I enter a email adress" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.1092474">
+        <testcase name="And I enter a email adress" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.096709901">
         </testcase>
-        <testcase name="And I type in a password" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.043259699">
+        <testcase name="And I type in a password" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.054921599">
         </testcase>
-        <testcase name="And I re-enter the same password" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.056468101">
+        <testcase name="And I re-enter the same password" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0712461">
         </testcase>
-        <testcase name="And I press Create your IMDb account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.0046677">
+        <testcase name="And I press Create your IMDb account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="2.017020199">
         </testcase>
-        <testcase name="Then I should be automatically logged in to my account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="3.1255181">
+        <testcase name="Then I should be automatically logged in to my account" classname="account;i-type-in-an-unused-email-adress-and-a-password-i-should-be-able-to-create-an-account" time="3.856143701">
         </testcase>
     </testsuite>
     <testsuite name="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" tests="7" failures="0" skipped="0">
@@ -129,19 +129,19 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/konto.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="8.1169519">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="7.8889154">
         </testcase>
-        <testcase name="When I click the sign in button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.1205639">
+        <testcase name="When I click the sign in button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.1290829">
         </testcase>
-        <testcase name="And press the sign in with IMDb button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="0.1228742">
+        <testcase name="And press the sign in with IMDb button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="0.127120499">
         </testcase>
-        <testcase name="And I enter my email" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.621134099">
+        <testcase name="And I enter my email" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.533629099">
         </testcase>
-        <testcase name="And I enter my password" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.035295699">
+        <testcase name="And I enter my password" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.0532271">
         </testcase>
-        <testcase name="And I click the yellow sign in button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.006767401">
+        <testcase name="And I click the yellow sign in button" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="2.013917599">
         </testcase>
-        <testcase name="Then I should be logged in to my account" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="3.6981955">
+        <testcase name="Then I should be logged in to my account" classname="account;i-want-to-login-with-the-same-email-and-password-that-i-registered-with" time="3.420439601">
         </testcase>
     </testsuite>
     <testsuite name="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" tests="9" failures="0" skipped="0">
@@ -149,23 +149,23 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/konto.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="7.811500401">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="6.3865656">
         </testcase>
-        <testcase name="When I click the sign in button" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.1455784">
+        <testcase name="When I click the sign in button" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.0819616">
         </testcase>
-        <testcase name="And I click the create an IMDB account button" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.0059907">
+        <testcase name="And I click the create an IMDB account button" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.016241501">
         </testcase>
-        <testcase name="And I enter my name" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.0558634">
+        <testcase name="And I enter my name" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.0518268">
         </testcase>
-        <testcase name="And I enter an unused email adress" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.1211371">
+        <testcase name="And I enter an unused email adress" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.128214699">
         </testcase>
-        <testcase name="And I type in a faulty password" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.023323099">
+        <testcase name="And I type in a faulty password" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.0492305">
         </testcase>
-        <testcase name="And I re-enter the same faulty password" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.0321709">
+        <testcase name="And I re-enter the same faulty password" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.065138901">
         </testcase>
-        <testcase name="And I press Create your IMDb account" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.011933399">
+        <testcase name="And I press Create your IMDb account" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.0100504">
         </testcase>
-        <testcase name="Then I should get a warning box" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.005055699">
+        <testcase name="Then I should get a warning box" classname="account;if-i-enter-a-faulty-password,-then-i-should-get-a-warning-when-trying-to-create-the-accouunt" time="2.00847">
         </testcase>
     </testsuite>
     <testsuite name="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" tests="9" failures="0" skipped="0">
@@ -173,39 +173,23 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/konto.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="8.0722395">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="6.3836501">
         </testcase>
-        <testcase name="When I click the sign in button" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.1317006">
+        <testcase name="When I click the sign in button" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.098860399">
         </testcase>
-        <testcase name="And I click the create an IMDB account button" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.0053479">
+        <testcase name="And I click the create an IMDB account button" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.0133589">
         </testcase>
-        <testcase name="And I enter my name" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.0825683">
+        <testcase name="And I enter my name" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.0838406">
         </testcase>
-        <testcase name="And I enter a email adress" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.082212399">
+        <testcase name="And I enter a email adress" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.1092204">
         </testcase>
-        <testcase name="And I enter my password" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.0736299">
+        <testcase name="And I enter my password" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.045659999">
         </testcase>
-        <testcase name="And I reenter a not matching password" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.024633401">
+        <testcase name="And I reenter a not matching password" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.08005">
         </testcase>
-        <testcase name="And I press Create your IMDb account" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.005523099">
+        <testcase name="And I press Create your IMDb account" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.016857301">
         </testcase>
-        <testcase name="Then I should get a warning box" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.0048319">
-        </testcase>
-    </testsuite>
-    <testsuite name="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/search-IMDB.feature">
-            </property>
-        </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="7.4626077">
-        </testcase>
-        <testcase name="When I enter the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.0053842">
-        </testcase>
-        <testcase name="And I press the categories button titles" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.4675166">
-        </testcase>
-        <testcase name="When I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="1.936011199">
-        </testcase>
-        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.128266501">
+        <testcase name="Then I should get a warning box" classname="account;if-my-repeated-password-does-not-match-the-first-one-i-entered,-i-will-receive-a-warning-when-i-try-to-create-my-account" time="2.014260099">
         </testcase>
     </testsuite>
     <testsuite name="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
@@ -213,15 +197,31 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="6.471567799">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="7.5087496">
         </testcase>
-        <testcase name="When I enter the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.0351798">
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.050058199">
         </testcase>
-        <testcase name="And I press the categories button titles" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.5037032">
+        <testcase name="And I press the categories button titles" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.498950501">
         </testcase>
-        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.170111899">
+        <testcase name="When I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="1.956650799">
         </testcase>
-        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.1370584">
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.122389101">
+        </testcase>
+    </testsuite>
+    <testsuite name="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/search-IMDB.feature">
+            </property>
+        </properties>
+        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="8.0337634">
+        </testcase>
+        <testcase name="When I enter the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.0133802">
+        </testcase>
+        <testcase name="And I press the categories button titles" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.5045218">
+        </testcase>
+        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.2828251">
+        </testcase>
+        <testcase name="Then I should see the search results based on the title &quot;Lion King&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-titles-on-imdb" time="2.1159199">
         </testcase>
     </testsuite>
     <testsuite name="search;as-a-user-i-want-to-be-able-to-search-on-imdb" tests="4" failures="0" skipped="0">
@@ -229,13 +229,13 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="8.2280251">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="7.455862">
         </testcase>
-        <testcase name="When I enter &quot;Simpsons&quot; in the searchfield" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="2.1544184">
+        <testcase name="When I enter &quot;Simpsons&quot; in the searchfield" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="2.0039864">
         </testcase>
-        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="1.415565201">
+        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="1.4994618">
         </testcase>
-        <testcase name="Then I should see results based on my search" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="2.004844199">
+        <testcase name="Then I should see results based on my search" classname="search;as-a-user-i-want-to-be-able-to-search-on-imdb" time="2.0080509">
         </testcase>
     </testsuite>
     <testsuite name="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" tests="5" failures="0" skipped="0">
@@ -243,15 +243,15 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="7.0482812">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="7.534634099">
         </testcase>
-        <testcase name="When I enter the company &quot;Twentieth Century Fox&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="2.007527999">
+        <testcase name="When I enter the company &quot;Twentieth Century Fox&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="2.0128325">
         </testcase>
-        <testcase name="And I press the categories button companies" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="2.241470799">
+        <testcase name="And I press the categories button companies" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="2.2848757">
         </testcase>
-        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="1.8372907">
+        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="1.392656799">
         </testcase>
-        <testcase name="Then I should see the search results based on the title &quot;Twentieth Century Fox&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="2.052295799">
+        <testcase name="Then I should see the search results based on the title &quot;Twentieth Century Fox&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-companies-on-imdb" time="2.088394301">
         </testcase>
     </testsuite>
     <testsuite name="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" tests="5" failures="0" skipped="0">
@@ -259,15 +259,15 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="6.9318423">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="6.7673062">
         </testcase>
-        <testcase name="When I enter the name of &quot;Sylvester Stallone&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="2.006195301">
+        <testcase name="When I enter the name of &quot;Sylvester Stallone&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="2.0056541">
         </testcase>
-        <testcase name="And I press the categories button celebrities" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="2.472504601">
+        <testcase name="And I press the categories button celebrities" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="2.501250601">
         </testcase>
-        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="1.1927159">
+        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="1.533424">
         </testcase>
-        <testcase name="Then I should see the search results based on the name &quot;Sylvester Stallone&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="2.0492265">
+        <testcase name="Then I should see the search results based on the name &quot;Sylvester Stallone&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-for-a-celebritie-on-imdb" time="2.0374939">
         </testcase>
     </testsuite>
     <testsuite name="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" tests="5" failures="0" skipped="0">
@@ -275,15 +275,15 @@
             <property name="URI" value="C:/Users/Max/Desktop/IMDB/features/search-IMDB.feature">
             </property>
         </properties>
-        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="7.745299201">
+        <testcase name="Given That I’m on the platform IMDb.com" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="7.864501501">
         </testcase>
-        <testcase name="When I enter the episode &quot;The Iron Throne&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="2.1415624">
+        <testcase name="When I enter the episode &quot;The Iron Throne&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="2.027113199">
         </testcase>
-        <testcase name="And I press the categories button tv-episodes" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="2.461586499">
+        <testcase name="And I press the categories button tv-episodes" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="2.4769891">
         </testcase>
-        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="1.8313047">
+        <testcase name="And I press the search button" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="1.8520968">
         </testcase>
-        <testcase name="Then I should see the search results based on the title &quot;The Iron Throne&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="2.070640099">
+        <testcase name="Then I should see the search results based on the title &quot;The Iron Throne&quot;" classname="search;as-a-user-i-want-to-be-able-to-search-on-tv-episodes-on-imdb" time="2.0608021">
         </testcase>
     </testsuite>
 </testsuites>

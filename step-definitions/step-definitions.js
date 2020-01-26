@@ -117,15 +117,16 @@ module.exports = function () {
 
   this.When(/^I press the categories button tv\-episodes$/, async function () {
     let categoriesButton = await $('.search-category-selector')
-    await categoriesButton.click();
     await sleep(sleepTime);
+    categoriesButton.click();
+    
     let episodesButton = await $('#navbar-search-category-select-contents > ul > a:nth-child(3)')
     await episodesButton.click();
   });
 
 
   this.When(/^I enter my name$/, async function () {
-     nameBox = await $('#ap_customer_name')
+    nameBox = await $('#ap_customer_name')
     name = 'hejimdbitsmeagain'
     await nameBox.sendKeys(name)
     assert.instanceOf(nameBox, nameBox.constructor, "could not enter name");
